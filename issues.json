@@ -1,0 +1,1576 @@
+[
+  {
+    "id": "40060613",
+    "url": "https://issues.chromium.org/issues/40060613",
+    "title": "CHECK failure: GetProcessWideSandbox()->Contains(pointer)",
+    "surface": "Sandbox cage / bounds",
+    "commits": []
+  },
+  {
+    "id": "40061453",
+    "url": "https://issues.chromium.org/issues/40061453",
+    "title": "Security: WebAssembly UAF in catch block with stale memory start pointer",
+    "surface": "Wasm",
+    "commits": []
+  },
+  {
+    "id": "40068627",
+    "url": "https://issues.chromium.org/issues/40068627",
+    "title": "V8 Sandbox escape due to tiering_budget_array being referenced through a raw pointer",
+    "surface": "Wasm",
+    "commits": []
+  },
+  {
+    "id": "40068749",
+    "url": "https://issues.chromium.org/issues/40068749",
+    "title": "V8 Sandbox escape through WasmInstanceObject::jump_table_start field",
+    "surface": "Wasm",
+    "commits": []
+  },
+  {
+    "id": "40070746",
+    "url": "https://issues.chromium.org/issues/40070746",
+    "title": "Remove JSTypedArray::length and replace it with JSTypedArray::byteLength for sandbox compatibility",
+    "surface": "ArrayBuffer / TypedArray",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/8a56f0f07c9eedaf7cbbb6954a611cc0a3c194f9"
+    ]
+  },
+  {
+    "id": "40071407",
+    "url": "https://issues.chromium.org/issues/40071407",
+    "title": "V8 Sandbox violation when corrupting TypedArray length",
+    "surface": "ArrayBuffer / TypedArray",
+    "commits": []
+  },
+  {
+    "id": "40091913",
+    "url": "https://issues.chromium.org/issues/40091913",
+    "title": "Harden wasm trap handler to only catch addresses within wasm memory gigacage",
+    "surface": "Wasm",
+    "commits": []
+  },
+  {
+    "id": "40225083",
+    "url": "https://issues.chromium.org/issues/40225083",
+    "title": "v8_fully_instrumented_fuzzer: CHECK failure: GetProcessWideSandbox()->Contains(pointer)",
+    "surface": "Sandbox testing",
+    "commits": []
+  },
+  {
+    "id": "40278564",
+    "url": "https://issues.chromium.org/issues/40278564",
+    "title": "V8 Sandbox escape due to corrupted Ignition ByteCode",
+    "surface": "Bytecode / deoptimization",
+    "commits": []
+  },
+  {
+    "id": "40278709",
+    "url": "https://issues.chromium.org/issues/40278709",
+    "title": "V8 Sandbox: Corrupting/faking Code objects lead to sandbox violation due to instruction_stream pointer",
+    "surface": "JS dispatch",
+    "commits": []
+  },
+  {
+    "id": "40278829",
+    "url": "https://issues.chromium.org/issues/40278829",
+    "title": "V8 Sandbox crash filter should filter out stack overflows",
+    "surface": "Sandbox testing",
+    "commits": []
+  },
+  {
+    "id": "40926051",
+    "url": "https://issues.chromium.org/issues/40926051",
+    "title": "V8 Sandbox: Stack out-of-bounds access in ArrayPrototypePush when a JSArray is corrupted",
+    "surface": "Builtins / stack",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/4e42ca6e94a3d4da5013dabec165fa7197ebf812"
+    ]
+  },
+  {
+    "id": "40926722",
+    "url": "https://issues.chromium.org/issues/40926722",
+    "title": "V8 Sandbox violation after corrupting BigInt (or other object's with a length)",
+    "surface": "Native resources / strings",
+    "commits": []
+  },
+  {
+    "id": "40926724",
+    "url": "https://issues.chromium.org/issues/40926724",
+    "title": "V8 Sandbox: sandbox violation due to corrupted handler_table",
+    "surface": "Bytecode / deoptimization",
+    "commits": []
+  },
+  {
+    "id": "40926727",
+    "url": "https://issues.chromium.org/issues/40926727",
+    "title": "V8 Sandbox: sandbox violation due to RelocationInfo",
+    "surface": "JS dispatch",
+    "commits": []
+  },
+  {
+    "id": "40947913",
+    "url": "https://issues.chromium.org/issues/40947913",
+    "title": "V8 sandbox violation in v8::internal::FullObjectSlot::operator*",
+    "surface": "Heap / GC",
+    "commits": []
+  },
+  {
+    "id": "40948385",
+    "url": "https://issues.chromium.org/issues/40948385",
+    "title": "V8 sandbox violation in Builtins_KeyedLoadIC_Megamorphic",
+    "surface": "Compiler / IC",
+    "commits": []
+  },
+  {
+    "id": "40948502",
+    "url": "https://issues.chromium.org/issues/40948502",
+    "title": "V8 sandbox violation due to \"internal\" builtins being exposed through the CPT",
+    "surface": "JS dispatch",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/d9d9eee6d616b0d71902ce384c653f4da1be65d4"
+    ]
+  },
+  {
+    "id": "41487380",
+    "url": "https://issues.chromium.org/issues/41487380",
+    "title": "V8 sandbox violation in Builtins_LdarExtraWideHandler",
+    "surface": "Bytecode / deoptimization",
+    "commits": []
+  },
+  {
+    "id": "41487854",
+    "url": "https://issues.chromium.org/issues/41487854",
+    "title": "V8 sandbox violation in Builtins_StarWideHandler",
+    "surface": "Bytecode / deoptimization",
+    "commits": []
+  },
+  {
+    "id": "329345899",
+    "url": "https://issues.chromium.org/issues/329345899",
+    "title": "V8 sandbox violation due to OOB SlotSet Bucket access when heap memory is corrupted",
+    "surface": "Heap / GC",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/47c50e8013d9061ca113e66514568debc4dfb133"
+    ]
+  },
+  {
+    "id": "330404819",
+    "url": "https://issues.chromium.org/issues/330404819",
+    "title": "V8 Sandbox escape via regexp",
+    "surface": "RegExp",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/b9349d97fd44aec615307c9d00697152da95a66a"
+    ]
+  },
+  {
+    "id": "331837303",
+    "url": "https://issues.chromium.org/issues/331837303",
+    "title": "V8 sandbox violation in v8::internal::maglev::MaglevGraphBuilder::TryBuildInlinedAllocatedContext",
+    "surface": "Compiler / IC",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/27ebef493c41ae51d73c745e71d79727f7994602"
+    ]
+  },
+  {
+    "id": "334120897",
+    "url": "https://issues.chromium.org/issues/334120897",
+    "title": "V8 Sandbox Bypass: wasm function signature confusion leading to out of sandbox arbitrary read/write",
+    "surface": "Wasm",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/33e4006f1ee2f61e701a94b9bde9c5e16add6891"
+    ]
+  },
+  {
+    "id": "335810507",
+    "url": "https://issues.chromium.org/issues/335810507",
+    "title": "V8 sandbox violation in v8::internal::ToLatin1Lower",
+    "surface": "Native resources / strings",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/986dae2498b1f290df92cb961bed25b895a3bfdb"
+    ]
+  },
+  {
+    "id": "336507783",
+    "url": "https://issues.chromium.org/issues/336507783",
+    "title": "V8 Sandbox: Prevent Wasm-based sandbox escapes",
+    "surface": "Wasm",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/850eb545d170ce928a30a8892b3435407c99b313"
+    ]
+  },
+  {
+    "id": "342297062",
+    "url": "https://issues.chromium.org/issues/342297062",
+    "title": "V8 sandbox violation if SFI::formal_parameter_count doesn't match the parameter count of a function's code",
+    "surface": "JS dispatch",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/caec912449a5406a55172df90f6c7ad83cb63072"
+    ]
+  },
+  {
+    "id": "342866373",
+    "url": "https://issues.chromium.org/issues/342866373",
+    "title": "V8 Sandbox Bypass: JSToWasmWrapperAsm accessible and allows type confusion",
+    "surface": "Wasm",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/8430125e7c0212a735600565b82ae43483bd788e"
+    ]
+  },
+  {
+    "id": "343407073",
+    "url": "https://issues.chromium.org/issues/343407073",
+    "title": "V8 Sandbox Bypass: control-flow hijacking via WASM Table Indirect call",
+    "surface": "Wasm",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/cf9373a0d6760146534b096cee60675a3ea09ad7"
+    ]
+  },
+  {
+    "id": "344343031",
+    "url": "https://issues.chromium.org/issues/344343031",
+    "title": "V8 Sandbox Bypass: Code Pointer Table Index Confusion leading to Stack Corruption",
+    "surface": "JS dispatch",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/caec912449a5406a55172df90f6c7ad83cb63072"
+    ]
+  },
+  {
+    "id": "344963941",
+    "url": "https://issues.chromium.org/issues/344963941",
+    "title": "V8 Sandbox Bypass: Irregexp engine bytecode modification leads to arbitrary read/write outside the sandbox",
+    "surface": "Bytecode / deoptimization",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/8859e5e21f4b5e587d9b75839c27befbdf1b9ddd"
+    ]
+  },
+  {
+    "id": "348084786",
+    "url": "https://issues.chromium.org/issues/348084786",
+    "title": "V8 Sandbox Bypass: with Shared Function Info",
+    "surface": "JS dispatch",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/b4e2df91ba38537c97b6257f931ad6f8b0dd9989"
+    ]
+  },
+  {
+    "id": "348793147",
+    "url": "https://issues.chromium.org/issues/348793147",
+    "title": "V8 Sandbox Bypass: AAR/W via table import signature check bypass",
+    "surface": "Wasm",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/5de108340f21afe181e5b6dc636a07e58721d5ff"
+    ]
+  },
+  {
+    "id": "349502157",
+    "url": "https://issues.chromium.org/issues/349502157",
+    "title": "V8 Sandbox Bypass: AAR/W via table set OOB SBXCHECK_LT() bypass",
+    "surface": "Wasm",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/2f16c5f7b56c40c1faeca4c14e897ac453d6b5ba"
+    ]
+  },
+  {
+    "id": "349529650",
+    "url": "https://issues.chromium.org/issues/349529650",
+    "title": "V8 Sandbox Bypass: AAR/W via function import signature check race",
+    "surface": "Wasm",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/3caea615ab192c4211faaf4521b53c1c81ecb560"
+    ]
+  },
+  {
+    "id": "349563054",
+    "url": "https://issues.chromium.org/issues/349563054",
+    "title": "V8 Sandbox Bypass: UAF by manipulating Managed<NativeModule>",
+    "surface": "Wasm",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/fa99aa361b7af8c6886fe915a7e7dd625a7a18f5"
+    ]
+  },
+  {
+    "id": "350324877",
+    "url": "https://issues.chromium.org/issues/350324877",
+    "title": "Experiment with Hardware Support for the V8 Sandbox",
+    "surface": "Sandbox cage / bounds",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/d1cd9e7554abd7e588ccb24f77a03739a427ea74"
+    ]
+  },
+  {
+    "id": "352446085",
+    "url": "https://issues.chromium.org/issues/352446085",
+    "title": "V8 Sandbox Bypass: AAR/W via WASM import race condition leading to broken runtime bounds check with memory64",
+    "surface": "Wasm",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/b814386527b4ceedbc39c83abcd1b11e181bd482"
+    ]
+  },
+  {
+    "id": "352689356",
+    "url": "https://issues.chromium.org/issues/352689356",
+    "title": "V8 Sandbox Bypass: AAR/W via WASM function signature confusion in TurboFan call_ref",
+    "surface": "Wasm",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/a6f1ecd6ffa87a2f1eb7d43a69261628184303b3"
+    ]
+  },
+  {
+    "id": "354355045",
+    "url": "https://issues.chromium.org/issues/354355045",
+    "title": "V8 Sandbox Bypass: AAR/W via generic JSToWasmWrapper type sbxcheck() bypass",
+    "surface": "Wasm",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/aa26778b9b8eb73912a98fd018e48b752456a573"
+    ]
+  },
+  {
+    "id": "354408144",
+    "url": "https://issues.chromium.org/issues/354408144",
+    "title": "V8 Sandbox Bypass: AAR/W via WASM signature confusion in Wasm-to-JS wrapper through PodArrayOfWasmValueType overwrite",
+    "surface": "Wasm",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/3d6e434b0342f79249052e58456c98c6c35ed0c1"
+    ]
+  },
+  {
+    "id": "356649155",
+    "url": "https://issues.chromium.org/issues/356649155",
+    "title": "V8 sandbox violation in v8::internal::OldLargeObjectSpace::PromoteNewLargeObject",
+    "surface": "Heap / GC",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/793aa781d411b5943533a955508935b23d0f4531"
+    ]
+  },
+  {
+    "id": "361862752",
+    "url": "https://issues.chromium.org/issues/361862752",
+    "title": "V8 Sandbox Bypass: compiled JS-to-WASM wrappers don't guard against `trusted_function_data` overwrites",
+    "surface": "Wasm",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/e25efe6cf28b8a7dfc6de89ac16fd2a77f5e281d"
+    ]
+  },
+  {
+    "id": "369748453",
+    "url": "https://issues.chromium.org/issues/369748453",
+    "title": "Consider making JSString::length unsigned",
+    "surface": "Native resources / strings",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/397fd3c2e2aa77dc2470a6c1eab1c646f4934fd5"
+    ]
+  },
+  {
+    "id": "376071292",
+    "url": "https://issues.chromium.org/issues/376071292",
+    "title": "Investigate and fix double-fetch issues related to the V8 Sandbox",
+    "surface": "Native resources / strings",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/b89cba226c8cdd80f6ef3267215304ece55610cf"
+    ]
+  },
+  {
+    "id": "376496315",
+    "url": "https://issues.chromium.org/issues/376496315",
+    "title": "V8 sandbox violation in v8::internal::TranslatedValue::kind",
+    "surface": "Bytecode / deoptimization",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/4c34691c200233672284f82947dbaf299952b8ed"
+    ]
+  },
+  {
+    "id": "379140430",
+    "url": "https://issues.chromium.org/issues/379140430",
+    "title": "V8 Sandbox Bypass: ARR/W by sig confusion in WasmToJsWrapper tier-up with in-sandbox Tuple2 corruption",
+    "surface": "Wasm",
+    "commits": []
+  },
+  {
+    "id": "379418918",
+    "url": "https://issues.chromium.org/issues/379418918",
+    "title": "V8 sandbox violation in Builtins_ContinueToJavaScriptBuiltinWithResult",
+    "surface": "Bytecode / deoptimization",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/61efe78c85565577e23c8a35e8324f6047601861"
+    ]
+  },
+  {
+    "id": "379768241",
+    "url": "https://issues.chromium.org/issues/379768241",
+    "title": "V8 sandbox violation in v8::internal::SlotSet* v8::internal::MutablePageMetadata::slot_set<",
+    "surface": "Heap / GC",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/1a67ec92b8eb30b2078da280e207a42e4f820282"
+    ]
+  },
+  {
+    "id": "379774687",
+    "url": "https://issues.chromium.org/issues/379774687",
+    "title": "V8 sandbox violation in v8::internal::Scope::AllocateVariablesRecursively",
+    "surface": "Parser / scopes",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/954dbf05ac19565c964bb1f5e8c1bdff620dcd04"
+    ]
+  },
+  {
+    "id": "381216369",
+    "url": "https://issues.chromium.org/issues/381216369",
+    "title": "V8 Sandbox Bypass: AAR/W",
+    "surface": "Sandbox cage / bounds",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/0efc70060ab7f22cb76cc1f0620df8a6123f9491"
+    ]
+  },
+  {
+    "id": "381999810",
+    "url": "https://issues.chromium.org/issues/381999810",
+    "title": "V8 Sandbox Bypass: Memory corruption outside the V8 sandbox",
+    "surface": "ArrayBuffer / TypedArray",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/12a53cc493f02f64f30dd08c0ec03a866ae45481"
+    ]
+  },
+  {
+    "id": "385775375",
+    "url": "https://issues.chromium.org/issues/385775375",
+    "title": "V8 sandbox violation due to concurrent ArrayBuffer modifications during std::sort",
+    "surface": "ArrayBuffer / TypedArray",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/3bbb4dcb340460be8ff9afe51290cfe94d7188ff"
+    ]
+  },
+  {
+    "id": "388616182",
+    "url": "https://issues.chromium.org/issues/388616182",
+    "title": "[sandbox] Harden the DoubleToStringWithRadix runtime function",
+    "surface": "Native resources / strings",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/4d711a47d52fce56ceddb6c198add8902acf5b1c"
+    ]
+  },
+  {
+    "id": "390201806",
+    "url": "https://issues.chromium.org/issues/390201806",
+    "title": "V8 Sandbox Bypass: AAR/W due to length-tracking TypedArray length double fetch",
+    "surface": "ArrayBuffer / TypedArray",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/de42e588f4f7bafc773e630f937407924528cb36"
+    ]
+  },
+  {
+    "id": "391169061",
+    "url": "https://issues.chromium.org/issues/391169061",
+    "title": "V8 Sandbox Bypass: AAW (wildcopy) due to %TypedArray%.prototype.set bounds check integer overflow",
+    "surface": "ArrayBuffer / TypedArray",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/ec48078aaeaef623314ed1dddc3a4b3967e8eb82"
+    ]
+  },
+  {
+    "id": "392180065",
+    "url": "https://issues.chromium.org/issues/392180065",
+    "title": "V8 sandbox violation in v8::bigint::CopyAndZeroExtend",
+    "surface": "Native resources / strings",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/4e29793e10fdfcbadc76521cac69267ce5bc0310"
+    ]
+  },
+  {
+    "id": "392541992",
+    "url": "https://issues.chromium.org/issues/392541992",
+    "title": "V8 Sandbox Bypass: UAF in ValueSerializer::WriteRawBytes",
+    "surface": "Native resources / strings",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/4d8f79a7f783a61ec5327c8af7fbd42572b55ca2"
+    ]
+  },
+  {
+    "id": "394635429",
+    "url": "https://issues.chromium.org/issues/394635429",
+    "title": "V8 Sandbox Bypass: AAW & Control flow hijack via RegExp pattern parse TOCTOU to RegExpCapture OOB",
+    "surface": "RegExp",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/6c5f6bdc3652c1bed3b5f3e4a42090cd684e4d75"
+    ]
+  },
+  {
+    "id": "395659804",
+    "url": "https://issues.chromium.org/issues/395659804",
+    "title": "V8 Sandbox Bypass: Arbitrary code execution via OSR DeoptimizationData confusion",
+    "surface": "Bytecode / deoptimization",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/f6a824b9fb4575da56988a3281d752ded9abc6e6"
+    ]
+  },
+  {
+    "id": "395895382",
+    "url": "https://issues.chromium.org/issues/395895382",
+    "title": "V8 Sandbox Bypass: AAW via array length corruption in Turbofan spread call inlining",
+    "surface": "ArrayBuffer / TypedArray",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/da14a949b0dc122c848f556b9e89ab1064a73306"
+    ]
+  },
+  {
+    "id": "397187119",
+    "url": "https://issues.chromium.org/issues/397187119",
+    "title": "Passing HeapNumbers to runtime functions is unsafe",
+    "surface": "ArrayBuffer / TypedArray",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/ec48078aaeaef623314ed1dddc3a4b3967e8eb82"
+    ]
+  },
+  {
+    "id": "412741811",
+    "url": "https://issues.chromium.org/issues/412741811",
+    "title": "V8 sandbox violation in Builtins_ArrayPrototypePush",
+    "surface": "Builtins / stack",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/db27e9ca687b69aebefe960bfd4fb9b3783fb590"
+    ]
+  },
+  {
+    "id": "420637585",
+    "url": "https://issues.chromium.org/issues/420637585",
+    "title": "[0-day] V8 sandbox bypass via Turbofan",
+    "surface": "ArrayBuffer / TypedArray",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/45eb42cd398ea2a0fd6d145a6c36d57f71498d34"
+    ]
+  },
+  {
+    "id": "421403261",
+    "url": "https://issues.chromium.org/issues/421403261",
+    "title": "V8 Sandbox Bypass: AAW via clobbered i32 high word on return value in Liftoff",
+    "surface": "Wasm",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/df3874776c396ba7ddc6ca7894a1e09937bc3d04"
+    ]
+  },
+  {
+    "id": "427918760",
+    "url": "https://issues.chromium.org/issues/427918760",
+    "title": "V8 Sandbox Bypass: OOB write in the WasmFullDecoder EndControl handler",
+    "surface": "Wasm",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/eec2428c91d484d86004db28a0d03daf591bd0d3"
+    ]
+  },
+  {
+    "id": "429703123",
+    "url": "https://issues.chromium.org/issues/429703123",
+    "title": "V8 Sandbox Bypass: Arbitrary code execution via interpreter-to-baseline OSR Code type confusion",
+    "surface": "Bytecode / deoptimization",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/ebf22f9a925a45549a6124158ad935d624e7bf8f"
+    ]
+  },
+  {
+    "id": "430960844",
+    "url": "https://issues.chromium.org/issues/430960844",
+    "title": "V8 Sandbox Bypass: InstantiateAsmJs builtin doesn't protect against mid-builtin dispatch handle swaps",
+    "surface": "JS dispatch",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/c82024befbfe8458e0482f2f24c9f69361b56e75"
+    ]
+  },
+  {
+    "id": "431970772",
+    "url": "https://issues.chromium.org/issues/431970772",
+    "title": "V8 Sandbox Bypass: UB in ValueTypeBase::raw_heap_representation",
+    "surface": "Sandbox cage / bounds",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/8ca9e6f04c55a5410900d7c7372807d94d47a7f4"
+    ]
+  },
+  {
+    "id": "432289371",
+    "url": "https://issues.chromium.org/issues/432289371",
+    "title": "V8 sandbox bypass due to recreating funcref for imported wasm function",
+    "surface": "Wasm",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/aedcea406cd3c0ce1e2ea5fd77b2c08edd912b34"
+    ]
+  },
+  {
+    "id": "433533359",
+    "url": "https://issues.chromium.org/issues/433533359",
+    "title": "Consumers of ReadableStream subject to data race with SharedArrayBuffer, leading to RCE + V8 Sandbox bypass",
+    "surface": "ArrayBuffer / TypedArray",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/1eda9300e26ec1aad95f98b6cb8e0d3ca6fb1e92"
+    ]
+  },
+  {
+    "id": "435630461",
+    "url": "https://issues.chromium.org/issues/435630461",
+    "title": "V8 Sandbox Bypass: OOB Write using %TypedArray%.prototype.set due to element type/size TOCTOU",
+    "surface": "ArrayBuffer / TypedArray",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/3e6b9f2f40dc80af7c98075bcd2b1ed63cdca286"
+    ]
+  },
+  {
+    "id": "435630464",
+    "url": "https://issues.chromium.org/issues/435630464",
+    "title": "V8 Sandbox Bypass: In-sandbox corruption allows execution of dangerous / experimental code",
+    "surface": "JS dispatch",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/28e10666727ff84684d2c5386c51cc35e9fddb13"
+    ]
+  },
+  {
+    "id": "435630467",
+    "url": "https://issues.chromium.org/issues/435630467",
+    "title": "V8 Sandbox Bypass: In-sandbox corruption allows execution of DebugBreakTrampoline, leading to invalid tail call",
+    "surface": "JS dispatch",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/269d7c0f238a38e272f19f98a217989524c9f799"
+    ]
+  },
+  {
+    "id": "439380004",
+    "url": "https://issues.chromium.org/issues/439380004",
+    "title": "V8 Sandbox Bypass: In-sandbox corruption allows execution of arbitrary runtime functions / intrinsics",
+    "surface": "Parser / extensions",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/4108ddc017df6463a114aa64371d79b6c8b162c5"
+    ]
+  },
+  {
+    "id": "440589876",
+    "url": "https://issues.chromium.org/issues/440589876",
+    "title": "V8 Intl String.localeCompare memory corruption leads to out-of-bounds allocation (ASan crash)",
+    "surface": "Native resources / strings",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/895622033e626d2de9348421670b173e87e265db"
+    ]
+  },
+  {
+    "id": "440589880",
+    "url": "https://issues.chromium.org/issues/440589880",
+    "title": "V8 Intl::Normalize – Corrupted string length triggers unbounded allocation",
+    "surface": "Native resources / strings",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/895622033e626d2de9348421670b173e87e265db"
+    ]
+  },
+  {
+    "id": "441949792",
+    "url": "https://issues.chromium.org/issues/441949792",
+    "title": "V8 Sandbox Bypass: Argument count inconsistency due to bound args double-fetch in Generate_PushBoundArguments",
+    "surface": "Builtins / stack",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/36dda0d20d17529bc239deb05fc3708793346d83"
+    ]
+  },
+  {
+    "id": "442412895",
+    "url": "https://issues.chromium.org/issues/442412895",
+    "title": "V8 Sandbox Bypass: OOB write in FastJsonStringifier",
+    "surface": "Native resources / strings",
+    "commits": []
+  },
+  {
+    "id": "442981541",
+    "url": "https://issues.chromium.org/issues/442981541",
+    "title": "V8 Sandbox violation: UAF in DoHostImportModuleDynamically",
+    "surface": "Embedder / API",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/2388032b518d067b8d5bbc4313c3c7d595f10e90"
+    ]
+  },
+  {
+    "id": "443182220",
+    "url": "https://issues.chromium.org/issues/443182220",
+    "title": "V8 Sandbox violation: UAF in RemoveFromAsyncWaiterQueueList",
+    "surface": "Atomics / synchronization",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/df48074d0e652501f234ab26ff919fe8b05b84a1"
+    ]
+  },
+  {
+    "id": "443772809",
+    "url": "https://issues.chromium.org/issues/443772809",
+    "title": "V8 Sandbox Bypass: AAW/PC control via JSDispatchEntry UAF",
+    "surface": "JS dispatch",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/51b324c6d189eeca06b84200d1acbdfba85f5c9b"
+    ]
+  },
+  {
+    "id": "445102886",
+    "url": "https://issues.chromium.org/issues/445102886",
+    "title": "Check failed: allocator->IsMostRecentYoungAllocation(object)",
+    "surface": "Heap / GC",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/d2b19bac1fb7e60d098dfa06f3d6215fb1c782f7"
+    ]
+  },
+  {
+    "id": "445209324",
+    "url": "https://issues.chromium.org/issues/445209324",
+    "title": "V8 Sandbox Bypass: AAW/PC control by dispatching CEntry and CCall functions",
+    "surface": "JS dispatch",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/581bca24327d088eaa5d6689a1428aa4cf28fbb3"
+    ]
+  },
+  {
+    "id": "445966259",
+    "url": "https://issues.chromium.org/issues/445966259",
+    "title": "V8 Sandbox Bypass: AAW/PC control via DebugBreakTrampoline",
+    "surface": "JS dispatch",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/a622c3686d9b0eeb6fbf38c949252479460b967a"
+    ]
+  },
+  {
+    "id": "446113730",
+    "url": "https://issues.chromium.org/issues/446113730",
+    "title": "V8 Sandbox Bypass: WasmCPT handle UAF by import dispatch table growth",
+    "surface": "Wasm",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/bf854e1d872f6815d3fe3547fe5a31294f29e04a"
+    ]
+  },
+  {
+    "id": "447307165",
+    "url": "https://issues.chromium.org/issues/447307165",
+    "title": "Sandbox violation: Still UAF in RemoveFromAsyncWaiterQueueList",
+    "surface": "Atomics / synchronization",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/b0157a634e584163cbe6004db3161dc16dea20f9"
+    ]
+  },
+  {
+    "id": "451355210",
+    "url": "https://issues.chromium.org/issues/451355210",
+    "title": "V8 Sandbox Bypass: AAW/PC control via OOB builtin in SharedFunctionInfo",
+    "surface": "Inspector / debug",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/c9d92eac458cdb227d37f2c839e966dc73803694"
+    ]
+  },
+  {
+    "id": "452605803",
+    "url": "https://issues.chromium.org/issues/452605803",
+    "title": "V8 Sandbox Bypass: WasmCPT handle UAF by import dispatch table corruption (multiple variants of b/446113730)",
+    "surface": "Wasm",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/dda15a7a586d2be32dfa54cb2c2e73aa516e3b7e"
+    ]
+  },
+  {
+    "id": "452605804",
+    "url": "https://issues.chromium.org/issues/452605804",
+    "title": "V8 Sandbox Bypass: Wasm streaming compilation cache confusion via \"double streaming\"",
+    "surface": "Wasm",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/d1834d91d325e447435c06272d1da7cd01884427"
+    ]
+  },
+  {
+    "id": "454734141",
+    "url": "https://issues.chromium.org/issues/454734141",
+    "title": "V8 Sandbox Bypass: in icu_77::UnicodeString::doAppend",
+    "surface": "Native resources / strings",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/64f7dacb77b12911fa9d8dcbede9b400e979f3a2"
+    ]
+  },
+  {
+    "id": "458679939",
+    "url": "https://issues.chromium.org/issues/458679939",
+    "title": "V8 sandbox violation in Builtins_InterpreterEntryTrampoline",
+    "surface": "Bytecode / deoptimization",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/a1fa446efe15dccc30d2255be7d5508ce1bd9bce"
+    ]
+  },
+  {
+    "id": "461097476",
+    "url": "https://issues.chromium.org/issues/461097476",
+    "title": "V8 sandbox violation in Builtins_CallVarargs",
+    "surface": "Compiler / IC",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/dee08e1aa6339a39d3b387a40a7234a398b641ec"
+    ]
+  },
+  {
+    "id": "462217236",
+    "url": "https://issues.chromium.org/issues/462217236",
+    "title": "V8 Sandbox Bypass: AAW/PC control via dispatch entry UAF during InstantiateAsmJs by hijacking start",
+    "surface": "JS dispatch",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/1f64f8ec5d55233b184c277a611c9bade0441c6b"
+    ]
+  },
+  {
+    "id": "464296297",
+    "url": "https://issues.chromium.org/issues/464296297",
+    "title": "V8 Sandbox Bypass: AAW due to JSArrayBuffer extension handle double fetch",
+    "surface": "ArrayBuffer / TypedArray",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/83ac15dc368ce0d4d45cbcf7a0e3a358869dc0ec"
+    ]
+  },
+  {
+    "id": "469759459",
+    "url": "https://issues.chromium.org/issues/469759459",
+    "title": "V8 Sandbox Bypass: Heap Buffer Overflow while Changing the raw_type of WasmGlobalObject",
+    "surface": "Wasm",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/678e837e8c74c0533de3bb494427e37a3b26f20f"
+    ]
+  },
+  {
+    "id": "469878492",
+    "url": "https://issues.chromium.org/issues/469878492",
+    "title": "V8 sandbox bypass: arbitrary bytecode execution with replaced bytecode array in lazy deoptimization throw",
+    "surface": "Bytecode / deoptimization",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/175df5c0dbbb47641fab35a61ab541e70868386b"
+    ]
+  },
+  {
+    "id": "472139305",
+    "url": "https://issues.chromium.org/issues/472139305",
+    "title": "V8 Sandbox Bypass: Use-After-Free in ICU NumberFormatter",
+    "surface": "Native resources / strings",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/bdc8f396b7d81e6521ee395970935edede39349a"
+    ]
+  },
+  {
+    "id": "472181383",
+    "url": "https://issues.chromium.org/issues/472181383",
+    "title": "V8 Sandbox Bypass: Use-After-Free in Intl.Segmenter BreakIterator",
+    "surface": "Native resources / strings",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/3bb01464a8d669b614668d9661a8ead24871b96e"
+    ]
+  },
+  {
+    "id": "473478130",
+    "url": "https://issues.chromium.org/issues/473478130",
+    "title": "V8 Sandbox Bypass: Heap Buffer Overflow while Changing the serialized_signature of WasmTagObject",
+    "surface": "Wasm",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/1df98b48f0b1ff169e82b9caa0a17c2deec92b87"
+    ]
+  },
+  {
+    "id": "474035846",
+    "url": "https://project-zero.issues.chromium.org/issues/474035846",
+    "title": "V8 Sandbox Bypass: Memory corruption during StringToBigInt conversion",
+    "surface": "Native resources / strings",
+    "commits": []
+  },
+  {
+    "id": "474310986",
+    "url": "https://project-zero.issues.chromium.org/issues/474310986",
+    "title": "V8 Sandbox Bypass: Arbitrary bytecode execution due to BytecodeArray swapping before code deoptimization",
+    "surface": "Bytecode / deoptimization",
+    "commits": []
+  },
+  {
+    "id": "474402856",
+    "url": "https://issues.chromium.org/issues/474402856",
+    "title": "[BIGSLEEP-474545096] V8 Sandbox Bypass: Use-after-Free in JSSegments::Containing",
+    "surface": "Native resources / strings",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/3bb01464a8d669b614668d9661a8ead24871b96e"
+    ]
+  },
+  {
+    "id": "479406004",
+    "url": "https://issues.chromium.org/issues/479406004",
+    "title": "V8 Sandbox Bypass: OOB using WASM type feedback",
+    "surface": "Wasm",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/954a5091cc5baee6be86dd8c7121ea6d4a92b544"
+    ]
+  },
+  {
+    "id": "481295170",
+    "url": "https://issues.chromium.org/issues/481295170",
+    "title": "V8 Sandbox Bypass: AAW/PC Control via code marked for deopt (ARM64 only)",
+    "surface": "Bytecode / deoptimization",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/ef44b4d99435dfecd3c78065c39a4217a179fd1d"
+    ]
+  },
+  {
+    "id": "481749435",
+    "url": "https://issues.chromium.org/issues/481749435",
+    "title": "V8 Sandbox Bypass: UAF via JSTemporalDuration::Round",
+    "surface": "Native resources / strings",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/07c84700bb5925c6d8f0ce3617f23fdfb0006f03"
+    ]
+  },
+  {
+    "id": "481749436",
+    "url": "https://issues.chromium.org/issues/481749436",
+    "title": "V8 Sandbox Bypass: Native stack OOB write in arm64 Generate_PushBoundArguments",
+    "surface": "Builtins / stack",
+    "commits": []
+  },
+  {
+    "id": "481749440",
+    "url": "https://issues.chromium.org/issues/481749440",
+    "title": "V8 Sandbox Bypass: UAF via Temporal.Duration.prototype.total",
+    "surface": "Native resources / strings",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/07c84700bb5925c6d8f0ce3617f23fdfb0006f03"
+    ]
+  },
+  {
+    "id": "483092905",
+    "url": "https://issues.chromium.org/issues/483092905",
+    "title": "OOB read via raw pointers in data_segment_starts ByteArray in WasmTrustedInstanceData",
+    "surface": "Wasm",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/e9f61f1bbcd8807817a75779b64f0381751c9f5c"
+    ]
+  },
+  {
+    "id": "483220222",
+    "url": "https://issues.chromium.org/issues/483220222",
+    "title": "V8 sandbox bypass: reuse `protected_uses` of `WasmDispatchTable` after grow",
+    "surface": "Wasm",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/dc31719c947c12a0d7121978c136a006ba4e29c0"
+    ]
+  },
+  {
+    "id": "484054137",
+    "url": "https://issues.chromium.org/issues/484054137",
+    "title": "V8 Sandbox Bypass: UAF via Intl.v8BreakIterator",
+    "surface": "Native resources / strings",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/3bb01464a8d669b614668d9661a8ead24871b96e"
+    ]
+  },
+  {
+    "id": "484054139",
+    "url": "https://issues.chromium.org/issues/484054139",
+    "title": "V8 Sandbox Bypass: UAF via Intl.Segments.containing",
+    "surface": "Native resources / strings",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/3bb01464a8d669b614668d9661a8ead24871b96e"
+    ]
+  },
+  {
+    "id": "484054140",
+    "url": "https://issues.chromium.org/issues/484054140",
+    "title": "V8 Sandbox Bypass: UAF via Intl.SegmentIterator",
+    "surface": "Native resources / strings",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/3bb01464a8d669b614668d9661a8ead24871b96e"
+    ]
+  },
+  {
+    "id": "484220944",
+    "url": "https://issues.chromium.org/issues/484220944",
+    "title": "V8 Sandbox Bypass: Use-After-Free in JSSegments::Containing",
+    "surface": "Native resources / strings",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/3bb01464a8d669b614668d9661a8ead24871b96e"
+    ]
+  },
+  {
+    "id": "485254832",
+    "url": "https://issues.chromium.org/issues/485254832",
+    "title": "v8 sandbox bypass if --natives-syntax is set",
+    "surface": "Sandbox testing",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/a03a1a3c45d7420c4c997a0e447a72060e8d9e84"
+    ]
+  },
+  {
+    "id": "485292579",
+    "url": "https://issues.chromium.org/issues/485292579",
+    "title": "V8 Sandbox Bypass: data_segment_starts raw pointer leak + arbitrary read via FixedAddressArray in sandbox",
+    "surface": "Wasm",
+    "commits": []
+  },
+  {
+    "id": "486084137",
+    "url": "https://issues.chromium.org/issues/486084137",
+    "title": "V8 Sandbox Bypass: controlled OOB write to `Isolate` via RegExp source corruption during tier-up.",
+    "surface": "RegExp",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/8244e41264d6b304c6f93987b91278a25cf2dca7"
+    ]
+  },
+  {
+    "id": "486705321",
+    "url": "https://issues.chromium.org/issues/486705321",
+    "title": "Fatal error in Not a mov: 817bNUMBER       cmpl [rbx+0x7],ADDRESS",
+    "surface": "Sandbox testing",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/348417dec5945d0adb2377d16b91461a77ea794a"
+    ]
+  },
+  {
+    "id": "487213150",
+    "url": "https://issues.chromium.org/issues/487213150",
+    "title": "V8 Sandbox Bypass: AAW/PC control via type confusion for wasm exports in DebugBreakTrampoline",
+    "surface": "JS dispatch",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/a5e9546f64f4858f188811caeaa1550db56341e6"
+    ]
+  },
+  {
+    "id": "488362583",
+    "url": "https://issues.chromium.org/issues/488362583",
+    "title": "V8 sandbox violation in v8::internal::Simulator::ExecuteInstruction",
+    "surface": "Sandbox testing",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/e0828504138148b54534a932c21f1e034ef6bebe"
+    ]
+  },
+  {
+    "id": "488651088",
+    "url": "https://issues.chromium.org/issues/488651088",
+    "title": "V8 Sandbox Bypass: OOB read via manipulated bound args on JSBoundFunction",
+    "surface": "Builtins / stack",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/500d6a6d2dff1a4f3bb6ca0cb9ce219d0a8b4370"
+    ]
+  },
+  {
+    "id": "488927521",
+    "url": "https://issues.chromium.org/issues/488927521",
+    "title": "V8 Sandbox Bypass: Atomics TypedArray TOCTOU (Map/Length Mismatch)",
+    "surface": "ArrayBuffer / TypedArray",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/327ecc410ec5f1e7662f93378e6eb458e6e92ab8"
+    ]
+  },
+  {
+    "id": "489633232",
+    "url": "https://issues.chromium.org/issues/489633232",
+    "title": "V8 Sandbox Bypass: AAW/PC Control via major GC between codegen and Code object creation",
+    "surface": "JS dispatch",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/b5db50f99bc02b1713a28c1718c4bd666264c9e7"
+    ]
+  },
+  {
+    "id": "490769268",
+    "url": "https://issues.chromium.org/issues/490769268",
+    "title": "V8 Sandbox Bypass: BigInt CachedMod Heap-Buffer-Overflow on C++ Heap",
+    "surface": "Native resources / strings",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/f875f0bb18961935cb76c2b204acef7bd30048e0"
+    ]
+  },
+  {
+    "id": "492077213",
+    "url": "https://issues.chromium.org/issues/492077213",
+    "title": "V8 Sandbox Bypass: Fast API overload metadata corruption causes compiler-emitted mixed native call type confusion",
+    "surface": "Fast API",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/edc949e7c9785abb81ad25b8da9bb5c03c3593e5"
+    ]
+  },
+  {
+    "id": "496341820",
+    "url": "https://issues.chromium.org/issues/496341820",
+    "title": "V8 Sandbox: TOCTOU and Direct Heap Access in Turbolev",
+    "surface": "Wasm",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/b1410b3d25833b593db84895940d058b14817629"
+    ]
+  },
+  {
+    "id": "496618662",
+    "url": "https://issues.chromium.org/issues/496618662",
+    "title": "V8 Sandbox Bypass: BigInt CachedMod Native Heap OOB via Corrupted BigInt Length",
+    "surface": "Native resources / strings",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/6294f47ea49c774058fb75cc9b9c9e7c39e857a6"
+    ]
+  },
+  {
+    "id": "496807861",
+    "url": "https://issues.chromium.org/issues/496807861",
+    "title": "V8 Sandbox Bypass: BigInt DivideSchoolbook Native Heap OOB Write via Signed Scratch-Length Overflow",
+    "surface": "Native resources / strings",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/3f5013f6fd674862a1293400555768e9b9006182"
+    ]
+  },
+  {
+    "id": "496855012",
+    "url": "https://issues.chromium.org/issues/496855012",
+    "title": "Fatal error in Not a mov: 442b1f               subl r11,[rdi",
+    "surface": "Sandbox testing",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/63d03850a99898845f3d819ec212e2e4c5eebcaa"
+    ]
+  },
+  {
+    "id": "498095290",
+    "url": "https://issues.chromium.org/issues/498095290",
+    "title": "V8 sandbox bypass: WasmDispatchTable swapping lead to use of not fully initialized WasmTrustedInstanceData",
+    "surface": "Wasm",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/534f607e8951004e479c246cf30e2c9d5bae1d4f"
+    ]
+  },
+  {
+    "id": "499717570",
+    "url": "https://issues.chromium.org/issues/499717570",
+    "title": "V8 Sandbox Bypass:TypedArray.prototype.set ElementsKind TOCTOU",
+    "surface": "ArrayBuffer / TypedArray",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/3e9a59a628adcbeb392ea6a29e568fedb6d45663"
+    ]
+  },
+  {
+    "id": "501115746",
+    "url": "https://issues.chromium.org/issues/501115746",
+    "title": "V8 sandbox violation: IC handler using unverified Code objects",
+    "surface": "Compiler / IC",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/da89b83b1517b05c2f93ddb6ae6be90aaff71223"
+    ]
+  },
+  {
+    "id": "501147587",
+    "url": "https://issues.chromium.org/issues/501147587",
+    "title": "V8 Sandbox Bypass: JSPI suspender EPT not cleared in exception-unwind path",
+    "surface": "Native resources / strings",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/13c7629466fa3081df011d95cf35a20ed4b7fc63"
+    ]
+  },
+  {
+    "id": "501626906",
+    "url": "https://issues.chromium.org/issues/501626906",
+    "title": "V8 Sandbox Bypass: Map.bit_field2 corruption",
+    "surface": "ArrayBuffer / TypedArray",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/489887978dfb24e6c4da4b31fbd2e8000b9e2843"
+    ]
+  },
+  {
+    "id": "502229895",
+    "url": "https://issues.chromium.org/issues/502229895",
+    "title": "V8 Sandbox Bypass: WasmFX Type Confusion via Missing Signature Check",
+    "surface": "Wasm",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/1947e8a733718cd6ef38d0512ff8b95cc656022d"
+    ]
+  },
+  {
+    "id": "502337304",
+    "url": "https://issues.chromium.org/issues/502337304",
+    "title": "V8 Sandbox Bypass via OOB Stack Write in ScopeIterator::SetLocalVariableValue",
+    "surface": "Inspector / debug",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/8be639c1053e8756f297efdbda31320e06f54e11"
+    ]
+  },
+  {
+    "id": "502356099",
+    "url": "https://issues.chromium.org/issues/502356099",
+    "title": "V8 Sandbox Bypass: heap-buffer-overflow in asm.js source-position lookup via corrupted `CallSiteInfo` byte offset",
+    "surface": "Wasm",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/b654c3511159c2303017b79aad84e7783d4a0d95"
+    ]
+  },
+  {
+    "id": "502997649",
+    "url": "https://issues.chromium.org/issues/502997649",
+    "title": "[wasm] Ensure NativeModule alive throughout bg compilation",
+    "surface": "Wasm",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/d6b0be96f34d79bc2185c66008d4a35c1e819f0d"
+    ]
+  },
+  {
+    "id": "503422307",
+    "url": "https://issues.chromium.org/issues/503422307",
+    "title": "V8 sandbox bypass: reuse unpublished WasmDispatchTable lead to reproduce of 483220222",
+    "surface": "Wasm",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/9c0c3018761681a8ea2e4c1bf26d6a04ec46f3b8"
+    ]
+  },
+  {
+    "id": "504284251",
+    "url": "https://issues.chromium.org/issues/504284251",
+    "title": "V8 sandbox violation in v8::internal::CommonFrameWithJSLinkage::GetParameter",
+    "surface": "Bytecode / deoptimization",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/4fc5db8f53bdb20a7457e01d8409e4b5c69d8f8a"
+    ]
+  },
+  {
+    "id": "505751230",
+    "url": "https://issues.chromium.org/issues/505751230",
+    "title": "V8 Sandbox Bypass: WasmFX Continuation Signature Hash Collision Leads to Native Stack OOB Write",
+    "surface": "Wasm",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/877c984381e56c27fe8a8253e5dcb61c915c7f77"
+    ]
+  },
+  {
+    "id": "507490539",
+    "url": "https://issues.chromium.org/issues/507490539",
+    "title": "V8 Sandbox Bypass: Inspector Command-Line Accessor Callback Data Corruption",
+    "surface": "Inspector / debug",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/fdc7efb7319c5bda70a875df22eb6160d269821f"
+    ]
+  },
+  {
+    "id": "507520268",
+    "url": "https://issues.chromium.org/issues/507520268",
+    "title": "V8 sandbox violation in v8::internal::Runtime_WasmAllocateFeedbackVector",
+    "surface": "Bytecode / deoptimization",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/bb07280e51d1be1a1cd3cef95151b2c4fccfdd75"
+    ]
+  },
+  {
+    "id": "508092629",
+    "url": "https://issues.chromium.org/issues/508092629",
+    "title": "V8 Sandbox Escape: Stale MicrotaskQueue cache leads to OOS write",
+    "surface": "Embedder / API",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/6ecd7e195d8f773eacc10039075f93d1dc83999a"
+    ]
+  },
+  {
+    "id": "508200984",
+    "url": "https://issues.chromium.org/issues/508200984",
+    "title": "sandbox: Fix duplicate creation of evacuation entries",
+    "surface": "Pointer tables",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/493ea0b937d9a6c479d5358a5dced227bdf0fd5c"
+    ]
+  },
+  {
+    "id": "511549246",
+    "url": "https://issues.chromium.org/issues/511549246",
+    "title": "Fatal error in Invalid object, must be a JSON-serializable object",
+    "surface": "Sandbox testing",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/a132ae61b6b6c1b0b6e675fb4c227001d287fe74"
+    ]
+  },
+  {
+    "id": "512160117",
+    "url": "https://issues.chromium.org/issues/512160117",
+    "title": "V8 sandbox violation in Builtins_LoadICGenericBaseline",
+    "surface": "Compiler / IC",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/8f206c19f37f7faeb93c20a9ba7a55e03c16f725"
+    ]
+  },
+  {
+    "id": "513048538",
+    "url": "https://issues.chromium.org/issues/513048538",
+    "title": "Fix sandbox escape in Inspector command-line API",
+    "surface": "Inspector / debug",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/a53f0a577560313078bb94bdd636c335d571eb97"
+    ]
+  },
+  {
+    "id": "513081446",
+    "url": "https://issues.chromium.org/issues/513081446",
+    "title": "[objects] Fix double-read TOCTOU in RevisitValueIterator::GetNext()",
+    "surface": "Runtime / literals",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/2adfdb76ac14b9f95b2dc9f2c8cef4dcc65bbcc1"
+    ]
+  },
+  {
+    "id": "513144331",
+    "url": "https://issues.chromium.org/issues/513144331",
+    "title": "[wasm][jspi][sandbox] Fix argument adaptation for WasmResume builtin",
+    "surface": "Wasm / JSPI",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/7f6e1abfad42b33b72cfa62edd3b7ef8fd4d5f92"
+    ]
+  },
+  {
+    "id": "513407940",
+    "url": "https://issues.chromium.org/issues/513407940",
+    "title": "sandbox: Fix ARM64 TBI bypass in CSA untagging",
+    "surface": "Pointer tables",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/13613e0b335110807c676022b341c94fdaffb251"
+    ]
+  },
+  {
+    "id": "514157844",
+    "url": "https://issues.chromium.org/issues/514157844",
+    "title": "[wasm] Move tags table to trusted space",
+    "surface": "Wasm",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/e8baffef1a07eb566572447b26442ad44df52a50"
+    ]
+  },
+  {
+    "id": "514163419",
+    "url": "https://issues.chromium.org/issues/514163419",
+    "title": "[sandbox] Preserve indirect pointer tag during GC evacuation",
+    "surface": "Pointer tables",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/3c03b1d9e899b9764718e98ee2c1a5287c9838e5"
+    ]
+  },
+  {
+    "id": "517105634",
+    "url": "https://issues.chromium.org/issues/517105634",
+    "title": "Fatal error in Not a mov/sub/add: c5fbNUMBER           vmovsd xmm0,[rcx",
+    "surface": "Sandbox testing",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/059aa914b2f715e484a180982779e5bc0c018d60"
+    ]
+  },
+  {
+    "id": "517610232",
+    "url": "https://issues.chromium.org/issues/517610232",
+    "title": "[sandbox] Check BytecodeArray::parameter_count >= 1 in bytecode verifier",
+    "surface": "Bytecode / deoptimization",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/1267199531e5fb3ea480fc32cf99e187daffbf5c"
+    ]
+  },
+  {
+    "id": "519027296",
+    "url": "https://issues.chromium.org/issues/519027296",
+    "title": "[d8] Generalize hardware watchpoint mutation width and extension",
+    "surface": "Sandbox testing",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/bd2de5e49e34f15650b7bd92ef0b598eeb47b4d7"
+    ]
+  },
+  {
+    "id": "519652103",
+    "url": "https://issues.chromium.org/issues/519652103",
+    "title": "[sandbox] Disallow negative frame sizes in bytecode verifier",
+    "surface": "Bytecode / deoptimization",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/5bee6a4763a9bc738e3714c6fb72523b95e30c1c"
+    ]
+  },
+  {
+    "id": "519768343",
+    "url": "https://issues.chromium.org/issues/519768343",
+    "title": "[sandbox] Use 32-bit offset arithmetic in Maglev for ARM64 and LoongArch64",
+    "surface": "Native resources / strings",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/dbb033865ad32998d1876e2aa63770c7998fd3a9"
+    ]
+  },
+  {
+    "id": "522294322",
+    "url": "https://issues.chromium.org/issues/522294322",
+    "title": "[wasm-interpreter] Validate instance trusted data in WasmRunInterpreter",
+    "surface": "Wasm",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/cae0a28d9ede96739be22fff73bb28353346b976"
+    ]
+  },
+  {
+    "id": "522397420",
+    "url": "https://issues.chromium.org/issues/522397420",
+    "title": "[sandbox] Use 32-bit offset accumulation in StringToSlice and Turboshaft",
+    "surface": "Native resources / strings",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/a4b98d028bb4c5470f6fc5045214fd55de6afb75"
+    ]
+  },
+  {
+    "id": "524290062",
+    "url": "https://issues.chromium.org/issues/524290062",
+    "title": "[sandbox] Fix race condition in TrustedPointerTableEntry",
+    "surface": "Pointer tables",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/8428fe415e8c2560decbf793c29f822dfac44299"
+    ]
+  },
+  {
+    "id": "524854777",
+    "url": "https://issues.chromium.org/issues/524854777",
+    "title": "Fatal error in Could not read register name: c5fe6f06             vmovdqu ymm0,[rsi",
+    "surface": "Sandbox testing",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/2f11d6c1a43f53085df7cc2cc2cbd5f54329d975"
+    ]
+  },
+  {
+    "id": "525686865",
+    "url": "https://issues.chromium.org/issues/525686865",
+    "title": "[sandbox] Fix JSDispatchTable entry mark-bit erasure",
+    "surface": "JS dispatch",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/c21a93ec80d526fd270b119a2e8b7e26623d1b3b"
+    ]
+  },
+  {
+    "id": "525689847",
+    "url": "https://issues.chromium.org/issues/525689847",
+    "title": "[sandbox] Re-Introduc CAS loops in JSDispatchEntry",
+    "surface": "JS dispatch",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/4a3d24cd677fe4fbdc643c3ad3d100dcdf2d3fa8"
+    ]
+  },
+  {
+    "id": "526681186",
+    "url": "https://issues.chromium.org/issues/526681186",
+    "title": "[testing][sandbox] Front guard region for external str cage",
+    "surface": "Sandbox testing",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/f62acd0e661b14898b502be1506606ff902ef133"
+    ]
+  },
+  {
+    "id": "527689557",
+    "url": "https://issues.chromium.org/issues/527689557",
+    "title": "[wasm interpreter] Sandbox hardening",
+    "surface": "Wasm",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/e0c5b3bc0ba80528e6251dbf3ffa8c2f2781d08b"
+    ]
+  },
+  {
+    "id": "528662286",
+    "url": "https://issues.chromium.org/issues/528662286",
+    "title": "Fatal error in Not a recognized instruction: vpcmpeqb ymm1,ymm0,[rdi",
+    "surface": "Sandbox testing",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/c5026334ac7c1a1978f192c4f26ac20a93ecdde3"
+    ]
+  },
+  {
+    "id": "529423516",
+    "url": "https://issues.chromium.org/issues/529423516",
+    "title": "mjsunit/sandbox/hardware-watchpoints/double-registers starts failing",
+    "surface": "Sandbox testing",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/a597313a93e65e2d21363169cb1b9c7bd8cec201"
+    ]
+  },
+  {
+    "id": "529838187",
+    "url": "https://issues.chromium.org/issues/529838187",
+    "title": "[sandbox] Add kPatchLoadICUninitializedBaseline to verifier blocklist",
+    "surface": "Bytecode / deoptimization",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/cc697a9336da3a752c95aaec3e9949bf2711cf17"
+    ]
+  },
+  {
+    "id": "530659174",
+    "url": "https://issues.chromium.org/issues/530659174",
+    "title": "[wasm interpreter] Sandbox hardening",
+    "surface": "Wasm",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/e0c5b3bc0ba80528e6251dbf3ffa8c2f2781d08b"
+    ]
+  },
+  {
+    "id": "530659181",
+    "url": "https://issues.chromium.org/issues/530659181",
+    "title": "[wasm interpreter] Key WasmInterpreterThreadMap by thread and isolate",
+    "surface": "Wasm / interpreter",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/d405ed7c7b8141bb435ed5cf651163fa32e0d11a"
+    ]
+  },
+  {
+    "id": "530966146",
+    "url": "https://issues.chromium.org/issues/530966146",
+    "title": "[sandbox] Add kLoadIC_Miss_FromBaseline to verifier blocklist",
+    "surface": "Bytecode / deoptimization",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/da396a04d125129c20d6fddf511c6442e3bfb831"
+    ]
+  },
+  {
+    "id": "532204454",
+    "url": "https://issues.chromium.org/issues/532204454",
+    "title": "[string] Fix racy handle read in external string disposal",
+    "surface": "Native resources / strings",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/7d1fb25f99755c0380cb386e591a532efd7d2b03"
+    ]
+  },
+  {
+    "id": "533661183",
+    "url": "https://issues.chromium.org/issues/533661183",
+    "title": "[builtins] Fix OOB reads on string transition in toLowerCase and split",
+    "surface": "Native resources / strings",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/443267f7ac4a4906be50f29115db625043fbae1a"
+    ]
+  },
+  {
+    "id": "535000102",
+    "url": "https://issues.chromium.org/issues/535000102",
+    "title": "[string] Fix UAF in TwoStringsToSlices with external strings",
+    "surface": "Native resources / strings",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/383120c3acd389f21cae65add09b75230ee929d7"
+    ]
+  },
+  {
+    "id": "535518222",
+    "url": "https://issues.chromium.org/issues/535518222",
+    "title": "[wasm interpreter] Validate instance/trusted-data consistency",
+    "surface": "Wasm / interpreter",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/3489a0a7b242e2006e7e2aec7d99198dd26f1e0b"
+    ]
+  },
+  {
+    "id": "537948358",
+    "url": "https://issues.chromium.org/issues/537948358",
+    "title": "[sandbox] Prevent fixed-arity JSPI code in mismatched JDT entries",
+    "surface": "Wasm / JSPI",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/752405a70a5c8696196c5c29b1349b439eb881fd"
+    ]
+  },
+  {
+    "id": "541448581",
+    "url": "https://issues.chromium.org/issues/541448581",
+    "title": "[wasm][sandbox] Fix call_indirect feedback and module lookup",
+    "surface": "Wasm / NativeModule",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/00250c2d2cfb2306090a3330c621ee02d2ae6823"
+    ]
+  },
+  {
+    "id": "543901836",
+    "url": "https://issues.chromium.org/issues/543901836",
+    "title": "[wasm] Fix UAF of external string resource",
+    "surface": "Wasm / JS-string builtin",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/27bdcbf67f3f6f551d92d1438311722486cd4f0a"
+    ]
+  },
+  {
+    "id": "546253900",
+    "url": "https://issues.chromium.org/issues/546253900",
+    "title": "[wasm][sandbox] Register shared Wasm backing stores on attachment",
+    "surface": "Wasm / backing-store registry",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/06fdcf0a036996b12c615fc061cb499579109165"
+    ]
+  }
+]
