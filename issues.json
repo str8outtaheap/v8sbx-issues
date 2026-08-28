@@ -1475,6 +1475,15 @@
     ]
   },
   {
+    "id": "530292681",
+    "url": "https://issues.chromium.org/issues/530292681",
+    "title": "[regexp] Fix calling convention mismatch on representation corruption",
+    "surface": "RegExp",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/53844a46bb292304c921c008bb1717099dacf51e"
+    ]
+  },
+  {
     "id": "530659174",
     "url": "https://issues.chromium.org/issues/530659174",
     "title": "[wasm interpreter] Sandbox hardening",

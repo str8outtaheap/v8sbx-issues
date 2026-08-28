@@ -2,7 +2,7 @@
 
 A list of V8 Sandbox issues.
 
-- Issues: 180
+- Issues: 181
 - [json](issues.json)
 - Data sources: [Chromium Issue Tracker](https://issues.chromium.org/) and [V8](https://chromium.googlesource.com/v8/v8/)
 
@@ -177,6 +177,7 @@ A list of V8 Sandbox issues.
 | [528662286](https://issues.chromium.org/issues/528662286) | Fatal error in Not a recognized instruction: vpcmpeqb ymm1,ymm0,[rdi | Sandbox testing | [c5026334ac7c](https://chromium.googlesource.com/v8/v8/+/c5026334ac7c1a1978f192c4f26ac20a93ecdde3) |
 | [529423516](https://issues.chromium.org/issues/529423516) | mjsunit/sandbox/hardware-watchpoints/double-registers starts failing | Sandbox testing | [a597313a93e6](https://chromium.googlesource.com/v8/v8/+/a597313a93e65e2d21363169cb1b9c7bd8cec201) |
 | [529838187](https://issues.chromium.org/issues/529838187) | [sandbox] Add kPatchLoadICUninitializedBaseline to verifier blocklist | Bytecode / deoptimization | [cc697a9336da](https://chromium.googlesource.com/v8/v8/+/cc697a9336da3a752c95aaec3e9949bf2711cf17) |
+| [530292681](https://issues.chromium.org/issues/530292681) | [regexp] Fix calling convention mismatch on representation corruption | RegExp | [53844a46bb29](https://chromium.googlesource.com/v8/v8/+/53844a46bb292304c921c008bb1717099dacf51e) |
 | [530659174](https://issues.chromium.org/issues/530659174) | [wasm interpreter] Sandbox hardening | Wasm | [e0c5b3bc0ba8](https://chromium.googlesource.com/v8/v8/+/e0c5b3bc0ba80528e6251dbf3ffa8c2f2781d08b) |
 | [530659181](https://issues.chromium.org/issues/530659181) | [wasm interpreter] Key WasmInterpreterThreadMap by thread and isolate | Wasm / interpreter | [d405ed7c7b81](https://chromium.googlesource.com/v8/v8/+/d405ed7c7b8141bb435ed5cf651163fa32e0d11a) |
 | [530966146](https://issues.chromium.org/issues/530966146) | [sandbox] Add kLoadIC_Miss_FromBaseline to verifier blocklist | Bytecode / deoptimization | [da396a04d125](https://chromium.googlesource.com/v8/v8/+/da396a04d125129c20d6fddf511c6442e3bfb831) |
