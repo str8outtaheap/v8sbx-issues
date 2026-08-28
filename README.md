@@ -2,7 +2,7 @@
 
 A list of V8 Sandbox issues.
 
-- Issues: 181
+- Issues: 190
 - [json](issues.json)
 - Data sources: [Chromium Issue Tracker](https://issues.chromium.org/) and [V8](https://chromium.googlesource.com/v8/v8/)
 
@@ -16,6 +16,7 @@ A list of V8 Sandbox issues.
 | [40071407](https://issues.chromium.org/issues/40071407) | V8 Sandbox violation when corrupting TypedArray length | ArrayBuffer / TypedArray | - |
 | [40091913](https://issues.chromium.org/issues/40091913) | Harden wasm trap handler to only catch addresses within wasm memory gigacage | Wasm | - |
 | [40225083](https://issues.chromium.org/issues/40225083) | v8_fully_instrumented_fuzzer: CHECK failure: GetProcessWideSandbox()->Contains(pointer) | Sandbox testing | - |
+| [40238514](https://issues.chromium.org/issues/40238514) | PartitionAlloc shadow metadata | Sandbox cage / bounds | [3216566b54b8](https://chromium.googlesource.com/chromium/src/+/3216566b54b847c06ad7401052072eeb289a590e) |
 | [40278564](https://issues.chromium.org/issues/40278564) | V8 Sandbox escape due to corrupted Ignition ByteCode | Bytecode / deoptimization | - |
 | [40278709](https://issues.chromium.org/issues/40278709) | V8 Sandbox: Corrupting/faking Code objects lead to sandbox violation due to instruction_stream pointer | JS dispatch | - |
 | [40278829](https://issues.chromium.org/issues/40278829) | V8 Sandbox crash filter should filter out stack overflows | Sandbox testing | - |
@@ -44,7 +45,9 @@ A list of V8 Sandbox issues.
 | [349502157](https://issues.chromium.org/issues/349502157) | V8 Sandbox Bypass: AAR/W via table set OOB SBXCHECK_LT() bypass | Wasm | [2f16c5f7b56c](https://chromium.googlesource.com/v8/v8/+/2f16c5f7b56c40c1faeca4c14e897ac453d6b5ba) |
 | [349529650](https://issues.chromium.org/issues/349529650) | V8 Sandbox Bypass: AAR/W via function import signature check race | Wasm | [3caea615ab19](https://chromium.googlesource.com/v8/v8/+/3caea615ab192c4211faaf4521b53c1c81ecb560) |
 | [349563054](https://issues.chromium.org/issues/349563054) | V8 Sandbox Bypass: UAF by manipulating Managed<NativeModule> | Wasm | [fa99aa361b7a](https://chromium.googlesource.com/v8/v8/+/fa99aa361b7af8c6886fe915a7e7dd625a7a18f5) |
+| [350292240](https://issues.chromium.org/issues/350292240) | V8 Sandbox Bypass: AAR/W via generic function table `call_indirect` rtt check bypass | Wasm | [58f407806ad0](https://chromium.googlesource.com/v8/v8/+/58f407806ad0ea83d8174dd701ba4b84c3cca14f) |
 | [350324877](https://issues.chromium.org/issues/350324877) | Experiment with Hardware Support for the V8 Sandbox | Sandbox cage / bounds | [d1cd9e7554ab](https://chromium.googlesource.com/v8/v8/+/d1cd9e7554abd7e588ccb24f77a03739a427ea74) |
+| [351327767](https://issues.chromium.org/issues/351327767) | WebAssembly OOB memory access due to cached memory index confusion | Wasm | [bc545b15a0ee](https://chromium.googlesource.com/v8/v8/+/bc545b15a0ee5dd3bea9f2bfb991b380f5f3659c) |
 | [352446085](https://issues.chromium.org/issues/352446085) | V8 Sandbox Bypass: AAR/W via WASM import race condition leading to broken runtime bounds check with memory64 | Wasm | [b814386527b4](https://chromium.googlesource.com/v8/v8/+/b814386527b4ceedbc39c83abcd1b11e181bd482) |
 | [352689356](https://issues.chromium.org/issues/352689356) | V8 Sandbox Bypass: AAR/W via WASM function signature confusion in TurboFan call_ref | Wasm | [a6f1ecd6ffa8](https://chromium.googlesource.com/v8/v8/+/a6f1ecd6ffa87a2f1eb7d43a69261628184303b3) |
 | [354355045](https://issues.chromium.org/issues/354355045) | V8 Sandbox Bypass: AAR/W via generic JSToWasmWrapper type sbxcheck() bypass | Wasm | [aa26778b9b8e](https://chromium.googlesource.com/v8/v8/+/aa26778b9b8eb73912a98fd018e48b752456a573) |
@@ -60,6 +63,7 @@ A list of V8 Sandbox issues.
 | [379774687](https://issues.chromium.org/issues/379774687) | V8 sandbox violation in v8::internal::Scope::AllocateVariablesRecursively | Parser / scopes | [954dbf05ac19](https://chromium.googlesource.com/v8/v8/+/954dbf05ac19565c964bb1f5e8c1bdff620dcd04) |
 | [381216369](https://issues.chromium.org/issues/381216369) | V8 Sandbox Bypass: AAR/W | Sandbox cage / bounds | [0efc70060ab7](https://chromium.googlesource.com/v8/v8/+/0efc70060ab7f22cb76cc1f0620df8a6123f9491) |
 | [381999810](https://issues.chromium.org/issues/381999810) | V8 Sandbox Bypass: Memory corruption outside the V8 sandbox | ArrayBuffer / TypedArray | [12a53cc493f0](https://chromium.googlesource.com/v8/v8/+/12a53cc493f02f64f30dd08c0ec03a866ae45481) |
+| [384186547](https://issues.chromium.org/issues/384186547) | V8 Sandbox Bypass: Attacker manipulation of ArrayBufferSweeper linked lists results in dangling ArrayBufferExtension pointers | ArrayBuffer / TypedArray | [1d7b6d2d2d1c](https://chromium.googlesource.com/v8/v8/+/1d7b6d2d2d1c3fb18739405b6fd58ce801844f57) |
 | [385775375](https://issues.chromium.org/issues/385775375) | V8 sandbox violation due to concurrent ArrayBuffer modifications during std::sort | ArrayBuffer / TypedArray | [3bbb4dcb3404](https://chromium.googlesource.com/v8/v8/+/3bbb4dcb340460be8ff9afe51290cfe94d7188ff) |
 | [388616182](https://issues.chromium.org/issues/388616182) | [sandbox] Harden the DoubleToStringWithRadix runtime function | Native resources / strings | [4d711a47d52f](https://chromium.googlesource.com/v8/v8/+/4d711a47d52fce56ceddb6c198add8902acf5b1c) |
 | [390201806](https://issues.chromium.org/issues/390201806) | V8 Sandbox Bypass: AAR/W due to length-tracking TypedArray length double fetch | ArrayBuffer / TypedArray | [de42e588f4f7](https://chromium.googlesource.com/v8/v8/+/de42e588f4f7bafc773e630f937407924528cb36) |
@@ -82,6 +86,7 @@ A list of V8 Sandbox issues.
 | [435630461](https://issues.chromium.org/issues/435630461) | V8 Sandbox Bypass: OOB Write using %TypedArray%.prototype.set due to element type/size TOCTOU | ArrayBuffer / TypedArray | [3e6b9f2f40dc](https://chromium.googlesource.com/v8/v8/+/3e6b9f2f40dc80af7c98075bcd2b1ed63cdca286) |
 | [435630464](https://issues.chromium.org/issues/435630464) | V8 Sandbox Bypass: In-sandbox corruption allows execution of dangerous / experimental code | JS dispatch | [28e10666727f](https://chromium.googlesource.com/v8/v8/+/28e10666727ff84684d2c5386c51cc35e9fddb13) |
 | [435630467](https://issues.chromium.org/issues/435630467) | V8 Sandbox Bypass: In-sandbox corruption allows execution of DebugBreakTrampoline, leading to invalid tail call | JS dispatch | [269d7c0f238a](https://chromium.googlesource.com/v8/v8/+/269d7c0f238a38e272f19f98a217989524c9f799) |
+| [436181695](https://issues.chromium.org/issues/436181695) | V8: Bytecode corruption due to invalid parsing of ‘await using’ in c-style loops | Bytecode / deoptimization | [848d7f412282](https://chromium.googlesource.com/v8/v8/+/848d7f4122826f4d26ee09404fe57ac9b9295b00) |
 | [439380004](https://issues.chromium.org/issues/439380004) | V8 Sandbox Bypass: In-sandbox corruption allows execution of arbitrary runtime functions / intrinsics | Parser / extensions | [4108ddc017df](https://chromium.googlesource.com/v8/v8/+/4108ddc017df6463a114aa64371d79b6c8b162c5) |
 | [440589876](https://issues.chromium.org/issues/440589876) | V8 Intl String.localeCompare memory corruption leads to out-of-bounds allocation (ASan crash) | Native resources / strings | [895622033e62](https://chromium.googlesource.com/v8/v8/+/895622033e626d2de9348421670b173e87e265db) |
 | [440589880](https://issues.chromium.org/issues/440589880) | V8 Intl::Normalize – Corrupted string length triggers unbounded allocation | Native resources / strings | [895622033e62](https://chromium.googlesource.com/v8/v8/+/895622033e626d2de9348421670b173e87e265db) |
@@ -89,6 +94,7 @@ A list of V8 Sandbox issues.
 | [442412895](https://issues.chromium.org/issues/442412895) | V8 Sandbox Bypass: OOB write in FastJsonStringifier | Native resources / strings | - |
 | [442981541](https://issues.chromium.org/issues/442981541) | V8 Sandbox violation: UAF in DoHostImportModuleDynamically | Embedder / API | [2388032b518d](https://chromium.googlesource.com/v8/v8/+/2388032b518d067b8d5bbc4313c3c7d595f10e90) |
 | [443182220](https://issues.chromium.org/issues/443182220) | V8 Sandbox violation: UAF in RemoveFromAsyncWaiterQueueList | Atomics / synchronization | [df48074d0e65](https://chromium.googlesource.com/v8/v8/+/df48074d0e652501f234ab26ff919fe8b05b84a1) |
+| [443765373](https://issues.chromium.org/issues/443765373) | V8: Bytecode corruption due to integer truncation when writing exception handler offset | Bytecode / deoptimization | [a5f18bb86c3b](https://chromium.googlesource.com/v8/v8/+/a5f18bb86c3b97b9bfc8f95a0926812a1282ad7c) |
 | [443772809](https://issues.chromium.org/issues/443772809) | V8 Sandbox Bypass: AAW/PC control via JSDispatchEntry UAF | JS dispatch | [51b324c6d189](https://chromium.googlesource.com/v8/v8/+/51b324c6d189eeca06b84200d1acbdfba85f5c9b) |
 | [445102886](https://issues.chromium.org/issues/445102886) | Check failed: allocator->IsMostRecentYoungAllocation(object) | Heap / GC | [d2b19bac1fb7](https://chromium.googlesource.com/v8/v8/+/d2b19bac1fb7e60d098dfa06f3d6215fb1c782f7) |
 | [445209324](https://issues.chromium.org/issues/445209324) | V8 Sandbox Bypass: AAW/PC control by dispatching CEntry and CCall functions | JS dispatch | [581bca24327d](https://chromium.googlesource.com/v8/v8/+/581bca24327d088eaa5d6689a1428aa4cf28fbb3) |
@@ -112,6 +118,7 @@ A list of V8 Sandbox issues.
 | [474310986](https://project-zero.issues.chromium.org/issues/474310986) | V8 Sandbox Bypass: Arbitrary bytecode execution due to BytecodeArray swapping before code deoptimization | Bytecode / deoptimization | - |
 | [474402856](https://issues.chromium.org/issues/474402856) | [BIGSLEEP-474545096] V8 Sandbox Bypass: Use-after-Free in JSSegments::Containing | Native resources / strings | [3bb01464a8d6](https://chromium.googlesource.com/v8/v8/+/3bb01464a8d669b614668d9661a8ead24871b96e) |
 | [479406004](https://issues.chromium.org/issues/479406004) | V8 Sandbox Bypass: OOB using WASM type feedback | Wasm | [954a5091cc5b](https://chromium.googlesource.com/v8/v8/+/954a5091cc5baee6be86dd8c7121ea6d4a92b544) |
+| [481074858](https://issues.chromium.org/issues/481074858) | V8: Integer Truncation in Turboshaft PhiOp input_count via WASM br_table | Wasm | [04d57e1a869a](https://chromium.googlesource.com/v8/v8/+/04d57e1a869ae90d812cc66eb5946b42069558e8) |
 | [481295170](https://issues.chromium.org/issues/481295170) | V8 Sandbox Bypass: AAW/PC Control via code marked for deopt (ARM64 only) | Bytecode / deoptimization | [ef44b4d99435](https://chromium.googlesource.com/v8/v8/+/ef44b4d99435dfecd3c78065c39a4217a179fd1d) |
 | [481749435](https://issues.chromium.org/issues/481749435) | V8 Sandbox Bypass: UAF via JSTemporalDuration::Round | Native resources / strings | [07c84700bb59](https://chromium.googlesource.com/v8/v8/+/07c84700bb5925c6d8f0ce3617f23fdfb0006f03) |
 | [481749436](https://issues.chromium.org/issues/481749436) | V8 Sandbox Bypass: Native stack OOB write in arm64 Generate_PushBoundArguments | Builtins / stack | - |
@@ -124,6 +131,7 @@ A list of V8 Sandbox issues.
 | [484220944](https://issues.chromium.org/issues/484220944) | V8 Sandbox Bypass: Use-After-Free in JSSegments::Containing | Native resources / strings | [3bb01464a8d6](https://chromium.googlesource.com/v8/v8/+/3bb01464a8d669b614668d9661a8ead24871b96e) |
 | [485254832](https://issues.chromium.org/issues/485254832) | v8 sandbox bypass if --natives-syntax is set | Sandbox testing | [a03a1a3c45d7](https://chromium.googlesource.com/v8/v8/+/a03a1a3c45d7420c4c997a0e447a72060e8d9e84) |
 | [485292579](https://issues.chromium.org/issues/485292579) | V8 Sandbox Bypass: data_segment_starts raw pointer leak + arbitrary read via FixedAddressArray in sandbox | Wasm | - |
+| [485784597](https://issues.chromium.org/issues/485784597) | V8 Sandbox Bypass: V8 JSPI StackMemory use-after-free via EPT entry not invalidated on retirement | Wasm / JSPI | [54cf5fa964f0](https://chromium.googlesource.com/v8/v8/+/54cf5fa964f0734a8277ea2837aa2e4168e3240a) |
 | [486084137](https://issues.chromium.org/issues/486084137) | V8 Sandbox Bypass: controlled OOB write to `Isolate` via RegExp source corruption during tier-up. | RegExp | [8244e41264d6](https://chromium.googlesource.com/v8/v8/+/8244e41264d6b304c6f93987b91278a25cf2dca7) |
 | [486705321](https://issues.chromium.org/issues/486705321) | Fatal error in Not a mov: 817bNUMBER       cmpl [rbx+0x7],ADDRESS | Sandbox testing | [348417dec594](https://chromium.googlesource.com/v8/v8/+/348417dec5945d0adb2377d16b91461a77ea794a) |
 | [487213150](https://issues.chromium.org/issues/487213150) | V8 Sandbox Bypass: AAW/PC control via type confusion for wasm exports in DebugBreakTrampoline | JS dispatch | [a5e9546f64f4](https://chromium.googlesource.com/v8/v8/+/a5e9546f64f4858f188811caeaa1550db56341e6) |
@@ -139,6 +147,7 @@ A list of V8 Sandbox issues.
 | [496855012](https://issues.chromium.org/issues/496855012) | Fatal error in Not a mov: 442b1f               subl r11,[rdi | Sandbox testing | [63d03850a998](https://chromium.googlesource.com/v8/v8/+/63d03850a99898845f3d819ec212e2e4c5eebcaa) |
 | [498095290](https://issues.chromium.org/issues/498095290) | V8 sandbox bypass: WasmDispatchTable swapping lead to use of not fully initialized WasmTrustedInstanceData | Wasm | [534f607e8951](https://chromium.googlesource.com/v8/v8/+/534f607e8951004e479c246cf30e2c9d5bae1d4f) |
 | [499717570](https://issues.chromium.org/issues/499717570) | V8 Sandbox Bypass:TypedArray.prototype.set ElementsKind TOCTOU | ArrayBuffer / TypedArray | [3e9a59a628ad](https://chromium.googlesource.com/v8/v8/+/3e9a59a628adcbeb392ea6a29e568fedb6d45663) |
+| [500771385](https://issues.chromium.org/issues/500771385) | V8 Sandbox Bypass: Compiler-Eliminated CPT Tag Check | Pointer tables | [cfaa590b5171](https://chromium.googlesource.com/v8/v8/+/cfaa590b517161e60da356c0df7ecf4db149a26c) |
 | [501115746](https://issues.chromium.org/issues/501115746) | V8 sandbox violation: IC handler using unverified Code objects | Compiler / IC | [da89b83b1517](https://chromium.googlesource.com/v8/v8/+/da89b83b1517b05c2f93ddb6ae6be90aaff71223) |
 | [501147587](https://issues.chromium.org/issues/501147587) | V8 Sandbox Bypass: JSPI suspender EPT not cleared in exception-unwind path | Native resources / strings | [13c7629466fa](https://chromium.googlesource.com/v8/v8/+/13c7629466fa3081df011d95cf35a20ed4b7fc63) |
 | [501626906](https://issues.chromium.org/issues/501626906) | V8 Sandbox Bypass: Map.bit_field2 corruption | ArrayBuffer / TypedArray | [489887978dfb](https://chromium.googlesource.com/v8/v8/+/489887978dfb24e6c4da4b31fbd2e8000b9e2843) |

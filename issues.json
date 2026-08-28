@@ -58,6 +58,15 @@
     "commits": []
   },
   {
+    "id": "40238514",
+    "url": "https://issues.chromium.org/issues/40238514",
+    "title": "PartitionAlloc shadow metadata",
+    "surface": "Sandbox cage / bounds",
+    "commits": [
+      "https://chromium.googlesource.com/chromium/src/+/3216566b54b847c06ad7401052072eeb289a590e"
+    ]
+  },
+  {
     "id": "40278564",
     "url": "https://issues.chromium.org/issues/40278564",
     "title": "V8 Sandbox escape due to corrupted Ignition ByteCode",
@@ -290,12 +299,30 @@
     ]
   },
   {
+    "id": "350292240",
+    "url": "https://issues.chromium.org/issues/350292240",
+    "title": "V8 Sandbox Bypass: AAR/W via generic function table `call_indirect` rtt check bypass",
+    "surface": "Wasm",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/58f407806ad0ea83d8174dd701ba4b84c3cca14f"
+    ]
+  },
+  {
     "id": "350324877",
     "url": "https://issues.chromium.org/issues/350324877",
     "title": "Experiment with Hardware Support for the V8 Sandbox",
     "surface": "Sandbox cage / bounds",
     "commits": [
       "https://chromium.googlesource.com/v8/v8/+/d1cd9e7554abd7e588ccb24f77a03739a427ea74"
+    ]
+  },
+  {
+    "id": "351327767",
+    "url": "https://issues.chromium.org/issues/351327767",
+    "title": "WebAssembly OOB memory access due to cached memory index confusion",
+    "surface": "Wasm",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/bc545b15a0ee5dd3bea9f2bfb991b380f5f3659c"
     ]
   },
   {
@@ -429,6 +456,15 @@
     "surface": "ArrayBuffer / TypedArray",
     "commits": [
       "https://chromium.googlesource.com/v8/v8/+/12a53cc493f02f64f30dd08c0ec03a866ae45481"
+    ]
+  },
+  {
+    "id": "384186547",
+    "url": "https://issues.chromium.org/issues/384186547",
+    "title": "V8 Sandbox Bypass: Attacker manipulation of ArrayBufferSweeper linked lists results in dangling ArrayBufferExtension pointers",
+    "surface": "ArrayBuffer / TypedArray",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/1d7b6d2d2d1c3fb18739405b6fd58ce801844f57"
     ]
   },
   {
@@ -630,6 +666,15 @@
     ]
   },
   {
+    "id": "436181695",
+    "url": "https://issues.chromium.org/issues/436181695",
+    "title": "V8: Bytecode corruption due to invalid parsing of ‘await using’ in c-style loops",
+    "surface": "Bytecode / deoptimization",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/848d7f4122826f4d26ee09404fe57ac9b9295b00"
+    ]
+  },
+  {
     "id": "439380004",
     "url": "https://issues.chromium.org/issues/439380004",
     "title": "V8 Sandbox Bypass: In-sandbox corruption allows execution of arbitrary runtime functions / intrinsics",
@@ -688,6 +733,15 @@
     "surface": "Atomics / synchronization",
     "commits": [
       "https://chromium.googlesource.com/v8/v8/+/df48074d0e652501f234ab26ff919fe8b05b84a1"
+    ]
+  },
+  {
+    "id": "443765373",
+    "url": "https://issues.chromium.org/issues/443765373",
+    "title": "V8: Bytecode corruption due to integer truncation when writing exception handler offset",
+    "surface": "Bytecode / deoptimization",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/a5f18bb86c3b97b9bfc8f95a0926812a1282ad7c"
     ]
   },
   {
@@ -894,6 +948,15 @@
     ]
   },
   {
+    "id": "481074858",
+    "url": "https://issues.chromium.org/issues/481074858",
+    "title": "V8: Integer Truncation in Turboshaft PhiOp input_count via WASM br_table",
+    "surface": "Wasm",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/04d57e1a869ae90d812cc66eb5946b42069558e8"
+    ]
+  },
+  {
     "id": "481295170",
     "url": "https://issues.chromium.org/issues/481295170",
     "title": "V8 Sandbox Bypass: AAW/PC Control via code marked for deopt (ARM64 only)",
@@ -996,6 +1059,15 @@
     "title": "V8 Sandbox Bypass: data_segment_starts raw pointer leak + arbitrary read via FixedAddressArray in sandbox",
     "surface": "Wasm",
     "commits": []
+  },
+  {
+    "id": "485784597",
+    "url": "https://issues.chromium.org/issues/485784597",
+    "title": "V8 Sandbox Bypass: V8 JSPI StackMemory use-after-free via EPT entry not invalidated on retirement",
+    "surface": "Wasm / JSPI",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/54cf5fa964f0734a8277ea2837aa2e4168e3240a"
+    ]
   },
   {
     "id": "486084137",
@@ -1130,6 +1202,15 @@
     "surface": "ArrayBuffer / TypedArray",
     "commits": [
       "https://chromium.googlesource.com/v8/v8/+/3e9a59a628adcbeb392ea6a29e568fedb6d45663"
+    ]
+  },
+  {
+    "id": "500771385",
+    "url": "https://issues.chromium.org/issues/500771385",
+    "title": "V8 Sandbox Bypass: Compiler-Eliminated CPT Tag Check",
+    "surface": "Pointer tables",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/cfaa590b517161e60da356c0df7ecf4db149a26c"
     ]
   },
   {
