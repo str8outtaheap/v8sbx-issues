@@ -2,7 +2,7 @@
 
 A list of V8 Sandbox issues.
 
-- Issues: 190
+- Issues: 191
 - [json](issues.json)
 - Data sources: [Chromium Issue Tracker](https://issues.chromium.org/) and [V8](https://chromium.googlesource.com/v8/v8/)
 
@@ -195,6 +195,7 @@ A list of V8 Sandbox issues.
 | [535000102](https://issues.chromium.org/issues/535000102) | [string] Fix UAF in TwoStringsToSlices with external strings | Native resources / strings | [383120c3acd3](https://chromium.googlesource.com/v8/v8/+/383120c3acd389f21cae65add09b75230ee929d7) |
 | [535518222](https://issues.chromium.org/issues/535518222) | [wasm interpreter] Validate instance/trusted-data consistency | Wasm / interpreter | [3489a0a7b242](https://chromium.googlesource.com/v8/v8/+/3489a0a7b242e2006e7e2aec7d99198dd26f1e0b) |
 | [537948358](https://issues.chromium.org/issues/537948358) | [sandbox] Prevent fixed-arity JSPI code in mismatched JDT entries | Wasm / JSPI | [752405a70a5c](https://chromium.googlesource.com/v8/v8/+/752405a70a5c8696196c5c29b1349b439eb881fd) |
+| [538378084](https://issues.chromium.org/issues/538378084) | [wasm] Fix integer overflow in deserializer | Wasm / code serialization | [c3ea7757b190](https://chromium.googlesource.com/v8/v8/+/c3ea7757b1906586207c05766e1070ea20266ea8) |
 | [541448581](https://issues.chromium.org/issues/541448581) | [wasm][sandbox] Fix call_indirect feedback and module lookup | Wasm / NativeModule | [00250c2d2cfb](https://chromium.googlesource.com/v8/v8/+/00250c2d2cfb2306090a3330c621ee02d2ae6823) |
 | [543901836](https://issues.chromium.org/issues/543901836) | [wasm] Fix UAF of external string resource | Wasm / JS-string builtin | [27bdcbf67f3f](https://chromium.googlesource.com/v8/v8/+/27bdcbf67f3f6f551d92d1438311722486cd4f0a) |
 | [546253900](https://issues.chromium.org/issues/546253900) | [wasm][sandbox] Register shared Wasm backing stores on attachment | Wasm / backing-store registry | [06fdcf0a0369](https://chromium.googlesource.com/v8/v8/+/06fdcf0a036996b12c615fc061cb499579109165) |

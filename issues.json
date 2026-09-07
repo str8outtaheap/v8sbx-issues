@@ -1637,6 +1637,15 @@
     ]
   },
   {
+    "id": "538378084",
+    "url": "https://issues.chromium.org/issues/538378084",
+    "title": "[wasm] Fix integer overflow in deserializer",
+    "surface": "Wasm / code serialization",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/c3ea7757b1906586207c05766e1070ea20266ea8"
+    ]
+  },
+  {
     "id": "541448581",
     "url": "https://issues.chromium.org/issues/541448581",
     "title": "[wasm][sandbox] Fix call_indirect feedback and module lookup",
