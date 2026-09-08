@@ -1340,6 +1340,15 @@
     ]
   },
   {
+    "id": "511314504",
+    "url": "https://issues.chromium.org/issues/511314504",
+    "title": "[sandbox] Validate BackingStore resize bounds",
+    "surface": "ArrayBuffer / TypedArray",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/e01bf693451b2a9cb84bda4df4f85d85b2708b74"
+    ]
+  },
+  {
     "id": "511549246",
     "url": "https://issues.chromium.org/issues/511549246",
     "title": "Fatal error in Invalid object, must be a JSON-serializable object",
@@ -1385,12 +1394,31 @@
     ]
   },
   {
+    "id": "513244072",
+    "url": "https://issues.chromium.org/issues/513244072",
+    "title": "[objects] Validate JSArrayBuffer flags against out-of-sandbox extension",
+    "surface": "ArrayBuffer / TypedArray",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/fb3f02696cd89a1f576ab945ac68d336a1fe4963",
+      "https://chromium.googlesource.com/v8/v8/+/fb0a7d7e102b255c7e0a82634b119f499c366c85"
+    ]
+  },
+  {
     "id": "513407940",
     "url": "https://issues.chromium.org/issues/513407940",
     "title": "sandbox: Fix ARM64 TBI bypass in CSA untagging",
     "surface": "Pointer tables",
     "commits": [
       "https://chromium.googlesource.com/v8/v8/+/13613e0b335110807c676022b341c94fdaffb251"
+    ]
+  },
+  {
+    "id": "513568918",
+    "url": "https://issues.chromium.org/issues/513568918",
+    "title": "[regexp][sandbox] Pass RegExpData to runtime Exec functions",
+    "surface": "RegExp",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/f55c4ff2410d972d849d72683e849ef43b3ae87a"
     ]
   },
   {
@@ -1412,6 +1440,15 @@
     ]
   },
   {
+    "id": "516509161",
+    "url": "https://issues.chromium.org/issues/516509161",
+    "title": "[sandbox] Guard against freelist corruption in JSDispatchTable",
+    "surface": "JS dispatch",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/286f66bfc9c8a6a1b8abb88838fda11091d538b6"
+    ]
+  },
+  {
     "id": "517105634",
     "url": "https://issues.chromium.org/issues/517105634",
     "title": "Fatal error in Not a mov/sub/add: c5fbNUMBER           vmovsd xmm0,[rcx",
@@ -1427,6 +1464,15 @@
     "surface": "Bytecode / deoptimization",
     "commits": [
       "https://chromium.googlesource.com/v8/v8/+/1267199531e5fb3ea480fc32cf99e187daffbf5c"
+    ]
+  },
+  {
+    "id": "518164164",
+    "url": "https://issues.chromium.org/issues/518164164",
+    "title": "[heap] Use SafeHeapObjectSize or `uint32_t` in heap visitors",
+    "surface": "Heap / GC",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/f74d52590231d7249a9a7ac382adeef4381c546e"
     ]
   },
   {
@@ -1448,12 +1494,48 @@
     ]
   },
   {
+    "id": "519694530",
+    "url": "https://issues.chromium.org/issues/519694530",
+    "title": "[wasm] Fix stale Tagged in Runtime_WasmStringEncodeWtf8",
+    "surface": "Wasm",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/b67b0541fbb18724b70bf62a2887f4069376e060"
+    ]
+  },
+  {
     "id": "519768343",
     "url": "https://issues.chromium.org/issues/519768343",
     "title": "[sandbox] Use 32-bit offset arithmetic in Maglev for ARM64 and LoongArch64",
     "surface": "Native resources / strings",
     "commits": [
       "https://chromium.googlesource.com/v8/v8/+/dbb033865ad32998d1876e2aa63770c7998fd3a9"
+    ]
+  },
+  {
+    "id": "521657359",
+    "url": "https://issues.chromium.org/issues/521657359",
+    "title": "[sandbox] Recover fast-path offset performance in ToDirectStringAssembler",
+    "surface": "Native resources / strings",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/286d567257b9a7f0e2d49ad74cebd04f3a40be01"
+    ]
+  },
+  {
+    "id": "522052877",
+    "url": "https://issues.chromium.org/issues/522052877",
+    "title": "[riscv][sandbox] Harden TailCalls after code update",
+    "surface": "JS dispatch / RISC-V",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/934ff6a8d9af04ce926750ce6a7bada86b2fa1d4"
+    ]
+  },
+  {
+    "id": "522177495",
+    "url": "https://issues.chromium.org/issues/522177495",
+    "title": "[sandbox] Reject invalid_value for exception handler data",
+    "surface": "Bytecode verifier / testing",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/247fef2392f91736b73b060848d6521c904ed19e"
     ]
   },
   {
@@ -1475,12 +1557,48 @@
     ]
   },
   {
+    "id": "523416145",
+    "url": "https://issues.chromium.org/issues/523416145",
+    "title": "[baseline] Prevent baking foreign InterpreterData into Code",
+    "surface": "Baseline / concurrent Sparkplug",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/3d758c4b95b12c44a87ccf787a6b8c716aa4c6d6"
+    ]
+  },
+  {
+    "id": "523514443",
+    "url": "https://issues.chromium.org/issues/523514443",
+    "title": "[sandbox] Use 32-bit offset arithmetic in Maglev for ARM64 and LoongArch64",
+    "surface": "Native resources / strings",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/dbb033865ad32998d1876e2aa63770c7998fd3a9"
+    ]
+  },
+  {
+    "id": "523940239",
+    "url": "https://issues.chromium.org/issues/523940239",
+    "title": "[sandbox] Use 32-bit offset accumulation in VisitFlat and IsEqualTo",
+    "surface": "Native resources / strings",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/a4f5a78915d6e2af5e898f9ab5954c83af0fae25"
+    ]
+  },
+  {
     "id": "524290062",
     "url": "https://issues.chromium.org/issues/524290062",
     "title": "[sandbox] Fix race condition in TrustedPointerTableEntry",
     "surface": "Pointer tables",
     "commits": [
       "https://chromium.googlesource.com/v8/v8/+/8428fe415e8c2560decbf793c29f822dfac44299"
+    ]
+  },
+  {
+    "id": "524832525",
+    "url": "https://issues.chromium.org/issues/524832525",
+    "title": "[sandbox] Propagate uint32_t for offsets in String::VisitFlat",
+    "surface": "Native resources / strings",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/26f21f7b9cc3a72a383b0e0c511b85961ebe16db"
     ]
   },
   {
@@ -1610,6 +1728,24 @@
     ]
   },
   {
+    "id": "534092070",
+    "url": "https://issues.chromium.org/issues/534092070",
+    "title": "[heap,sandbox] Fix race condition in EPT evacuation",
+    "surface": "External pointer table / young GC",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/ddb5cc0c54814096ec78df470301d23ddee05f8f"
+    ]
+  },
+  {
+    "id": "534823422",
+    "url": "https://issues.chromium.org/issues/534823422",
+    "title": "[sandbox] Publish Code object when fully initialized",
+    "surface": "JS dispatch / trusted-code publication",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/e73eec269930e16a34646e44b3d8baf9a9df300e"
+    ]
+  },
+  {
     "id": "535000102",
     "url": "https://issues.chromium.org/issues/535000102",
     "title": "[string] Fix UAF in TwoStringsToSlices with external strings",
@@ -1625,6 +1761,15 @@
     "surface": "Wasm / interpreter",
     "commits": [
       "https://chromium.googlesource.com/v8/v8/+/3489a0a7b242e2006e7e2aec7d99198dd26f1e0b"
+    ]
+  },
+  {
+    "id": "536234354",
+    "url": "https://issues.chromium.org/issues/536234354",
+    "title": "[sandbox] Harden pointer table off-space segment storage",
+    "surface": "Pointer tables / segment lifetime",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/1a4a2b03b12944eb848d8eb2f2f7c56cb1ec55f9"
     ]
   },
   {
@@ -1646,12 +1791,57 @@
     ]
   },
   {
+    "id": "540033151",
+    "url": "https://issues.chromium.org/issues/540033151",
+    "title": "[sandbox] Verify external pointer tag during EPT marking and evacuation",
+    "surface": "External pointer table / GC",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/4d21392dd1a42370df609ed21f44524dece2534d"
+    ]
+  },
+  {
+    "id": "540430406",
+    "url": "https://issues.chromium.org/issues/540430406",
+    "title": "[wasm][sandbox] Post async compilation tasks as non-nestable",
+    "surface": "Wasm / async compilation",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/db1a465144dee3dbc0eadfc775704f5c4e1991e4"
+    ]
+  },
+  {
+    "id": "540656748",
+    "url": "https://issues.chromium.org/issues/540656748",
+    "title": "[sandbox] Harden pointer table off-space segment storage",
+    "surface": "Pointer tables / segment lifetime",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/1a4a2b03b12944eb848d8eb2f2f7c56cb1ec55f9"
+    ]
+  },
+  {
     "id": "541448581",
     "url": "https://issues.chromium.org/issues/541448581",
     "title": "[wasm][sandbox] Fix call_indirect feedback and module lookup",
     "surface": "Wasm / NativeModule",
     "commits": [
       "https://chromium.googlesource.com/v8/v8/+/00250c2d2cfb2306090a3330c621ee02d2ae6823"
+    ]
+  },
+  {
+    "id": "542146471",
+    "url": "https://issues.chromium.org/issues/542146471",
+    "title": "[wasm][sandbox] CHECK for SetUrl() race",
+    "surface": "Wasm / streaming",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/e533bd77f25f9786d206314b076bd4ed50df9dee"
+    ]
+  },
+  {
+    "id": "543557673",
+    "url": "https://issues.chromium.org/issues/543557673",
+    "title": "[wasm][sandbox] Fix side effects of WasmGetOwnProperty builtin",
+    "surface": "Wasm / exception dispatch",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/36079c36283aaf3d0cee0797e46ddc278988f7f2"
     ]
   },
   {
@@ -1664,12 +1854,39 @@
     ]
   },
   {
+    "id": "546080080",
+    "url": "https://issues.chromium.org/issues/546080080",
+    "title": "[sandbox] Do not flush bytecode of live functions",
+    "surface": "Bytecode / GC",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/445f45796516823984c123282865478b0c4fc2f4"
+    ]
+  },
+  {
     "id": "546253900",
     "url": "https://issues.chromium.org/issues/546253900",
     "title": "[wasm][sandbox] Register shared Wasm backing stores on attachment",
     "surface": "Wasm / backing-store registry",
     "commits": [
       "https://chromium.googlesource.com/v8/v8/+/06fdcf0a036996b12c615fc061cb499579109165"
+    ]
+  },
+  {
+    "id": "546402114",
+    "url": "https://issues.chromium.org/issues/546402114",
+    "title": "[sandbox] Validate isolate in CSA::BasePageFromMemoryChunk",
+    "surface": "Heap / isolate ownership",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/6d80ebe01feca82f783a94c14cad3af6595e52e9"
+    ]
+  },
+  {
+    "id": "549892124",
+    "url": "https://issues.chromium.org/issues/549892124",
+    "title": "[heap] Fix missing write barrier for JS_DISPATCH_HANDLE in reloc info",
+    "surface": "JS dispatch",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/f8a55358029680dcdef3b8e3195c869db8d782ee"
     ]
   }
 ]
