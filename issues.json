@@ -1512,15 +1512,6 @@
     ]
   },
   {
-    "id": "521657359",
-    "url": "https://issues.chromium.org/issues/521657359",
-    "title": "[sandbox] Recover fast-path offset performance in ToDirectStringAssembler",
-    "surface": "Native resources / strings",
-    "commits": [
-      "https://chromium.googlesource.com/v8/v8/+/286d567257b9a7f0e2d49ad74cebd04f3a40be01"
-    ]
-  },
-  {
     "id": "522052877",
     "url": "https://issues.chromium.org/issues/522052877",
     "title": "[riscv][sandbox] Harden TailCalls after code update",
@@ -1887,6 +1878,42 @@
     "surface": "JS dispatch",
     "commits": [
       "https://chromium.googlesource.com/v8/v8/+/f8a55358029680dcdef3b8e3195c869db8d782ee"
+    ]
+  },
+  {
+    "id": "554034656",
+    "url": "https://issues.chromium.org/issues/554034656",
+    "title": "[parser][sandbox] Validate Code::kMaxArguments for wrapped functions",
+    "surface": "Parser / argument limits",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/d7795fe62100b2f9571aba2e5972a6a6914c1c7b"
+    ]
+  },
+  {
+    "id": "554619028",
+    "url": "https://issues.chromium.org/issues/554619028",
+    "title": "[sandbox] Avoid double read of JSArrayBuffer::extension_",
+    "surface": "ArrayBuffer / TypedArray",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/5a79228e0ac524c389cfd2c216d47d38ae3adae2"
+    ]
+  },
+  {
+    "id": "557403144",
+    "url": "https://issues.chromium.org/issues/557403144",
+    "title": "[sandbox] Call ArrayBufferExtension::InitializationBarrier before verifying age",
+    "surface": "ArrayBuffer / GC",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/603130eea0edc1d484e4848703410e11db0f2371"
+    ]
+  },
+  {
+    "id": "559580852",
+    "url": "https://issues.chromium.org/issues/559580852",
+    "title": "[sandbox] Call ArrayBufferExtension::InitializationBarrier before verifying age",
+    "surface": "ArrayBuffer / GC",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/603130eea0edc1d484e4848703410e11db0f2371"
     ]
   }
 ]

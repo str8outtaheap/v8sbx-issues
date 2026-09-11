@@ -2,7 +2,7 @@
 
 A list of V8 Sandbox issues.
 
-- Issues: 215
+- Issues: 218
 - [json](issues.json)
 - Data sources: [Chromium Issue Tracker](https://issues.chromium.org/) and [V8](https://chromium.googlesource.com/v8/v8/)
 
@@ -181,7 +181,6 @@ A list of V8 Sandbox issues.
 | [519652103](https://issues.chromium.org/issues/519652103) | [sandbox] Disallow negative frame sizes in bytecode verifier | Bytecode / deoptimization | [5bee6a4763a9](https://chromium.googlesource.com/v8/v8/+/5bee6a4763a9bc738e3714c6fb72523b95e30c1c) |
 | [519694530](https://issues.chromium.org/issues/519694530) | [wasm] Fix stale Tagged in Runtime_WasmStringEncodeWtf8 | Wasm | [b67b0541fbb1](https://chromium.googlesource.com/v8/v8/+/b67b0541fbb18724b70bf62a2887f4069376e060) |
 | [519768343](https://issues.chromium.org/issues/519768343) | [sandbox] Use 32-bit offset arithmetic in Maglev for ARM64 and LoongArch64 | Native resources / strings | [dbb033865ad3](https://chromium.googlesource.com/v8/v8/+/dbb033865ad32998d1876e2aa63770c7998fd3a9) |
-| [521657359](https://issues.chromium.org/issues/521657359) | [sandbox] Recover fast-path offset performance in ToDirectStringAssembler | Native resources / strings | [286d567257b9](https://chromium.googlesource.com/v8/v8/+/286d567257b9a7f0e2d49ad74cebd04f3a40be01) |
 | [522052877](https://issues.chromium.org/issues/522052877) | [riscv][sandbox] Harden TailCalls after code update | JS dispatch / RISC-V | [934ff6a8d9af](https://chromium.googlesource.com/v8/v8/+/934ff6a8d9af04ce926750ce6a7bada86b2fa1d4) |
 | [522177495](https://issues.chromium.org/issues/522177495) | [sandbox] Reject invalid_value for exception handler data | Bytecode verifier / testing | [247fef2392f9](https://chromium.googlesource.com/v8/v8/+/247fef2392f91736b73b060848d6521c904ed19e) |
 | [522294322](https://issues.chromium.org/issues/522294322) | [wasm-interpreter] Validate instance trusted data in WasmRunInterpreter | Wasm | [cae0a28d9ede](https://chromium.googlesource.com/v8/v8/+/cae0a28d9ede96739be22fff73bb28353346b976) |
@@ -223,3 +222,7 @@ A list of V8 Sandbox issues.
 | [546253900](https://issues.chromium.org/issues/546253900) | [wasm][sandbox] Register shared Wasm backing stores on attachment | Wasm / backing-store registry | [06fdcf0a0369](https://chromium.googlesource.com/v8/v8/+/06fdcf0a036996b12c615fc061cb499579109165) |
 | [546402114](https://issues.chromium.org/issues/546402114) | [sandbox] Validate isolate in CSA::BasePageFromMemoryChunk | Heap / isolate ownership | [6d80ebe01fec](https://chromium.googlesource.com/v8/v8/+/6d80ebe01feca82f783a94c14cad3af6595e52e9) |
 | [549892124](https://issues.chromium.org/issues/549892124) | [heap] Fix missing write barrier for JS_DISPATCH_HANDLE in reloc info | JS dispatch | [f8a553580296](https://chromium.googlesource.com/v8/v8/+/f8a55358029680dcdef3b8e3195c869db8d782ee) |
+| [554034656](https://issues.chromium.org/issues/554034656) | [parser][sandbox] Validate Code::kMaxArguments for wrapped functions | Parser / argument limits | [d7795fe62100](https://chromium.googlesource.com/v8/v8/+/d7795fe62100b2f9571aba2e5972a6a6914c1c7b) |
+| [554619028](https://issues.chromium.org/issues/554619028) | [sandbox] Avoid double read of JSArrayBuffer::extension_ | ArrayBuffer / TypedArray | [5a79228e0ac5](https://chromium.googlesource.com/v8/v8/+/5a79228e0ac524c389cfd2c216d47d38ae3adae2) |
+| [557403144](https://issues.chromium.org/issues/557403144) | [sandbox] Call ArrayBufferExtension::InitializationBarrier before verifying age | ArrayBuffer / GC | [603130eea0ed](https://chromium.googlesource.com/v8/v8/+/603130eea0edc1d484e4848703410e11db0f2371) |
+| [559580852](https://issues.chromium.org/issues/559580852) | [sandbox] Call ArrayBufferExtension::InitializationBarrier before verifying age | ArrayBuffer / GC | [603130eea0ed](https://chromium.googlesource.com/v8/v8/+/603130eea0edc1d484e4848703410e11db0f2371) |
