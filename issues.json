@@ -1915,5 +1915,15 @@
     "commits": [
       "https://chromium.googlesource.com/v8/v8/+/603130eea0edc1d484e4848703410e11db0f2371"
     ]
+  },
+  {
+    "id": "561655173",
+    "url": "https://issues.chromium.org/issues/561655173",
+    "title": "[wasm][jspi][sandbox] Repair WasmResume native-stack cleanup",
+    "surface": "Wasm / JSPI",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/49a1dbeb1bd610671530ebc0ba61a90eb8f73b59",
+      "https://chromium.googlesource.com/v8/v8/+/3137a7440094ca502c2ff55294344ec80c1c0fb8"
+    ]
   }
 ]
