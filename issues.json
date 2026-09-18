@@ -668,7 +668,7 @@
   {
     "id": "436181695",
     "url": "https://issues.chromium.org/issues/436181695",
-    "title": "V8: Bytecode corruption due to invalid parsing of ‘await using’ in c-style loops",
+    "title": "V8: Bytecode corruption due to invalid parsing of \u2018await using\u2019 in c-style loops",
     "surface": "Bytecode / deoptimization",
     "commits": [
       "https://chromium.googlesource.com/v8/v8/+/848d7f4122826f4d26ee09404fe57ac9b9295b00"
@@ -695,7 +695,7 @@
   {
     "id": "440589880",
     "url": "https://issues.chromium.org/issues/440589880",
-    "title": "V8 Intl::Normalize – Corrupted string length triggers unbounded allocation",
+    "title": "V8 Intl::Normalize \u2013 Corrupted string length triggers unbounded allocation",
     "surface": "Native resources / strings",
     "commits": [
       "https://chromium.googlesource.com/v8/v8/+/895622033e626d2de9348421670b173e87e265db"
@@ -1815,6 +1815,15 @@
     "surface": "Wasm / NativeModule",
     "commits": [
       "https://chromium.googlesource.com/v8/v8/+/00250c2d2cfb2306090a3330c621ee02d2ae6823"
+    ]
+  },
+  {
+    "id": "541776391",
+    "url": "https://issues.chromium.org/issues/541776391",
+    "title": "[string] Fix handle double-fetch in external migration",
+    "surface": "Native resources / strings",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/81080f4741d811ef7b1322b9090c3d61f99873c2"
     ]
   },
   {

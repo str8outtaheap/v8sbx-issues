@@ -2,7 +2,7 @@
 
 A list of V8 Sandbox issues.
 
-- Issues: 219
+- Issues: 220
 - [json](issues.json)
 - Data sources: [Chromium Issue Tracker](https://issues.chromium.org/) and [V8](https://chromium.googlesource.com/v8/v8/)
 
@@ -215,6 +215,7 @@ A list of V8 Sandbox issues.
 | [540430406](https://issues.chromium.org/issues/540430406) | [wasm][sandbox] Post async compilation tasks as non-nestable | Wasm / async compilation | [db1a465144de](https://chromium.googlesource.com/v8/v8/+/db1a465144dee3dbc0eadfc775704f5c4e1991e4) |
 | [540656748](https://issues.chromium.org/issues/540656748) | [sandbox] Harden pointer table off-space segment storage | Pointer tables / segment lifetime | [1a4a2b03b129](https://chromium.googlesource.com/v8/v8/+/1a4a2b03b12944eb848d8eb2f2f7c56cb1ec55f9) |
 | [541448581](https://issues.chromium.org/issues/541448581) | [wasm][sandbox] Fix call_indirect feedback and module lookup | Wasm / NativeModule | [00250c2d2cfb](https://chromium.googlesource.com/v8/v8/+/00250c2d2cfb2306090a3330c621ee02d2ae6823) |
+| [541776391](https://issues.chromium.org/issues/541776391) | [string] Fix handle double-fetch in external migration | Native resources / strings | [81080f4741d8](https://chromium.googlesource.com/v8/v8/+/81080f4741d811ef7b1322b9090c3d61f99873c2) |
 | [542146471](https://issues.chromium.org/issues/542146471) | [wasm][sandbox] CHECK for SetUrl() race | Wasm / streaming | [e533bd77f25f](https://chromium.googlesource.com/v8/v8/+/e533bd77f25f9786d206314b076bd4ed50df9dee) |
 | [543557673](https://issues.chromium.org/issues/543557673) | [wasm][sandbox] Fix side effects of WasmGetOwnProperty builtin | Wasm / exception dispatch | [36079c36283a](https://chromium.googlesource.com/v8/v8/+/36079c36283aaf3d0cee0797e46ddc278988f7f2) |
 | [543901836](https://issues.chromium.org/issues/543901836) | [wasm] Fix UAF of external string resource | Wasm / JS-string builtin | [27bdcbf67f3f](https://chromium.googlesource.com/v8/v8/+/27bdcbf67f3f6f551d92d1438311722486cd4f0a) |
