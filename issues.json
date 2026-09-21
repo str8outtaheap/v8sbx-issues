@@ -1926,6 +1926,24 @@
     ]
   },
   {
+    "id": "560771373",
+    "url": "https://issues.chromium.org/issues/560771373",
+    "title": "[snapshot][sandbox] Avoid storing external refs on-heap in serializer",
+    "surface": "Snapshot / external references",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/ccec634aa62ed5d2e015b4897cf254288db98296"
+    ]
+  },
+  {
+    "id": "561387542",
+    "url": "https://issues.chromium.org/issues/561387542",
+    "title": "[snapshot][sandbox] Restrict serializable trusted types",
+    "surface": "Snapshot / trusted objects",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/62d1415cd8c8cbd228da54bcbeceaacb2af901c9"
+    ]
+  },
+  {
     "id": "561655173",
     "url": "https://issues.chromium.org/issues/561655173",
     "title": "[wasm][jspi][sandbox] Repair WasmResume native-stack cleanup",

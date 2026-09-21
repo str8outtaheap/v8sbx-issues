@@ -2,7 +2,7 @@
 
 A list of V8 Sandbox issues.
 
-- Issues: 220
+- Issues: 222
 - [json](issues.json)
 - Data sources: [Chromium Issue Tracker](https://issues.chromium.org/) and [V8](https://chromium.googlesource.com/v8/v8/)
 
@@ -227,4 +227,6 @@ A list of V8 Sandbox issues.
 | [554619028](https://issues.chromium.org/issues/554619028) | [sandbox] Avoid double read of JSArrayBuffer::extension_ | ArrayBuffer / TypedArray | [5a79228e0ac5](https://chromium.googlesource.com/v8/v8/+/5a79228e0ac524c389cfd2c216d47d38ae3adae2) |
 | [557403144](https://issues.chromium.org/issues/557403144) | [sandbox] Call ArrayBufferExtension::InitializationBarrier before verifying age | ArrayBuffer / GC | [603130eea0ed](https://chromium.googlesource.com/v8/v8/+/603130eea0edc1d484e4848703410e11db0f2371) |
 | [559580852](https://issues.chromium.org/issues/559580852) | [sandbox] Call ArrayBufferExtension::InitializationBarrier before verifying age | ArrayBuffer / GC | [603130eea0ed](https://chromium.googlesource.com/v8/v8/+/603130eea0edc1d484e4848703410e11db0f2371) |
+| [560771373](https://issues.chromium.org/issues/560771373) | [snapshot][sandbox] Avoid storing external refs on-heap in serializer | Snapshot / external references | [ccec634aa62e](https://chromium.googlesource.com/v8/v8/+/ccec634aa62ed5d2e015b4897cf254288db98296) |
+| [561387542](https://issues.chromium.org/issues/561387542) | [snapshot][sandbox] Restrict serializable trusted types | Snapshot / trusted objects | [62d1415cd8c8](https://chromium.googlesource.com/v8/v8/+/62d1415cd8c8cbd228da54bcbeceaacb2af901c9) |
 | [561655173](https://issues.chromium.org/issues/561655173) | [wasm][jspi][sandbox] Repair WasmResume native-stack cleanup | Wasm / JSPI | [49a1dbeb1bd6](https://chromium.googlesource.com/v8/v8/+/49a1dbeb1bd610671530ebc0ba61a90eb8f73b59)<br>[3137a7440094](https://chromium.googlesource.com/v8/v8/+/3137a7440094ca502c2ff55294344ec80c1c0fb8) |
