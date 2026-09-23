@@ -1952,5 +1952,14 @@
       "https://chromium.googlesource.com/v8/v8/+/49a1dbeb1bd610671530ebc0ba61a90eb8f73b59",
       "https://chromium.googlesource.com/v8/v8/+/3137a7440094ca502c2ff55294344ec80c1c0fb8"
     ]
+  },
+  {
+    "id": "562225248",
+    "url": "https://issues.chromium.org/issues/562225248",
+    "title": "[riscv][maglev] Zero-extend string index before address computation",
+    "surface": "Compiler / Maglev / RISC-V",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/5f5fda773698dbfd1ad4172e1d2de3e534ed9cd3"
+    ]
   }
 ]

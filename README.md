@@ -2,7 +2,7 @@
 
 A list of V8 Sandbox issues.
 
-- Issues: 222
+- Issues: 223
 - [json](issues.json)
 - Data sources: [Chromium Issue Tracker](https://issues.chromium.org/) and [V8](https://chromium.googlesource.com/v8/v8/)
 
@@ -230,3 +230,4 @@ A list of V8 Sandbox issues.
 | [560771373](https://issues.chromium.org/issues/560771373) | [snapshot][sandbox] Avoid storing external refs on-heap in serializer | Snapshot / external references | [ccec634aa62e](https://chromium.googlesource.com/v8/v8/+/ccec634aa62ed5d2e015b4897cf254288db98296) |
 | [561387542](https://issues.chromium.org/issues/561387542) | [snapshot][sandbox] Restrict serializable trusted types | Snapshot / trusted objects | [62d1415cd8c8](https://chromium.googlesource.com/v8/v8/+/62d1415cd8c8cbd228da54bcbeceaacb2af901c9) |
 | [561655173](https://issues.chromium.org/issues/561655173) | [wasm][jspi][sandbox] Repair WasmResume native-stack cleanup | Wasm / JSPI | [49a1dbeb1bd6](https://chromium.googlesource.com/v8/v8/+/49a1dbeb1bd610671530ebc0ba61a90eb8f73b59)<br>[3137a7440094](https://chromium.googlesource.com/v8/v8/+/3137a7440094ca502c2ff55294344ec80c1c0fb8) |
+| [562225248](https://issues.chromium.org/issues/562225248) | [riscv][maglev] Zero-extend string index before address computation | Compiler / Maglev / RISC-V | [5f5fda773698](https://chromium.googlesource.com/v8/v8/+/5f5fda773698dbfd1ad4172e1d2de3e534ed9cd3) |
