@@ -1710,6 +1710,15 @@
     ]
   },
   {
+    "id": "532513886",
+    "url": "https://issues.chromium.org/issues/532513886",
+    "title": "[turboshaft][wasm] Align wrapper inlining checks on JSDispatchHandle",
+    "surface": "Wasm / wrapper inlining",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/48943a40ea944fd11f63b916c3937a9c38b848af"
+    ]
+  },
+  {
     "id": "533661183",
     "url": "https://issues.chromium.org/issues/533661183",
     "title": "[builtins] Fix OOB reads on string transition in toLowerCase and split",
@@ -1926,12 +1935,31 @@
     ]
   },
   {
+    "id": "560233253",
+    "url": "https://issues.chromium.org/issues/560233253",
+    "title": "[sandbox] Verify dispatch handle parameter count across runtime calls",
+    "surface": "JS dispatch / native stack",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/9f2a83975e3cabbf7ced511c9690fc1556e3a80c"
+    ]
+  },
+  {
+    "id": "560282287",
+    "url": "https://issues.chromium.org/issues/560282287",
+    "title": "[sandbox][wasm] Register WasmTrustedInstanceData with publishing scope",
+    "surface": "Wasm / trusted-object publication",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/9c203121a7ebb4cf0de6ba53071eecf71e9f3654"
+    ]
+  },
+  {
     "id": "560771373",
     "url": "https://issues.chromium.org/issues/560771373",
     "title": "[snapshot][sandbox] Avoid storing external refs on-heap in serializer",
     "surface": "Snapshot / external references",
     "commits": [
-      "https://chromium.googlesource.com/v8/v8/+/ccec634aa62ed5d2e015b4897cf254288db98296"
+      "https://chromium.googlesource.com/v8/v8/+/ccec634aa62ed5d2e015b4897cf254288db98296",
+      "https://chromium.googlesource.com/v8/v8/+/2a77d868f49a6081baae94beadb7ee7b58b98f1b"
     ]
   },
   {
@@ -1954,12 +1982,30 @@
     ]
   },
   {
+    "id": "562199654",
+    "url": "https://issues.chromium.org/issues/562199654",
+    "title": "[sandbox] Pass handle to WriteBarrier::ForExternalPointer",
+    "surface": "ArrayBuffer / GC",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/ca5faf28b935256e8a8d4e0d248fa53650dd92bf"
+    ]
+  },
+  {
     "id": "562225248",
     "url": "https://issues.chromium.org/issues/562225248",
     "title": "[riscv][maglev] Zero-extend string index before address computation",
     "surface": "Compiler / Maglev / RISC-V",
     "commits": [
       "https://chromium.googlesource.com/v8/v8/+/5f5fda773698dbfd1ad4172e1d2de3e534ed9cd3"
+    ]
+  },
+  {
+    "id": "562870022",
+    "url": "https://issues.chromium.org/issues/562870022",
+    "title": "Avoid double fetch of extension in arraybuffer.prototype.resize",
+    "surface": "ArrayBuffer / backing stores",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/afa3262b046d02a1472b2f9361f0149bc055dc09"
     ]
   }
 ]

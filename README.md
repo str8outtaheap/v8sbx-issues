@@ -2,7 +2,7 @@
 
 A list of V8 Sandbox issues.
 
-- Issues: 223
+- Issues: 228
 - [json](issues.json)
 - Data sources: [Chromium Issue Tracker](https://issues.chromium.org/) and [V8](https://chromium.googlesource.com/v8/v8/)
 
@@ -203,6 +203,7 @@ A list of V8 Sandbox issues.
 | [530659181](https://issues.chromium.org/issues/530659181) | [wasm interpreter] Key WasmInterpreterThreadMap by thread and isolate | Wasm / interpreter | [d405ed7c7b81](https://chromium.googlesource.com/v8/v8/+/d405ed7c7b8141bb435ed5cf651163fa32e0d11a) |
 | [530966146](https://issues.chromium.org/issues/530966146) | [sandbox] Add kLoadIC_Miss_FromBaseline to verifier blocklist | Bytecode / deoptimization | [da396a04d125](https://chromium.googlesource.com/v8/v8/+/da396a04d125129c20d6fddf511c6442e3bfb831) |
 | [532204454](https://issues.chromium.org/issues/532204454) | [string] Fix racy handle read in external string disposal | Native resources / strings | [7d1fb25f9975](https://chromium.googlesource.com/v8/v8/+/7d1fb25f99755c0380cb386e591a532efd7d2b03) |
+| [532513886](https://issues.chromium.org/issues/532513886) | [turboshaft][wasm] Align wrapper inlining checks on JSDispatchHandle | Wasm / wrapper inlining | [48943a40ea94](https://chromium.googlesource.com/v8/v8/+/48943a40ea944fd11f63b916c3937a9c38b848af) |
 | [533661183](https://issues.chromium.org/issues/533661183) | [builtins] Fix OOB reads on string transition in toLowerCase and split | Native resources / strings | [443267f7ac4a](https://chromium.googlesource.com/v8/v8/+/443267f7ac4a4906be50f29115db625043fbae1a) |
 | [534092070](https://issues.chromium.org/issues/534092070) | [heap,sandbox] Fix race condition in EPT evacuation | External pointer table / young GC | [ddb5cc0c5481](https://chromium.googlesource.com/v8/v8/+/ddb5cc0c54814096ec78df470301d23ddee05f8f) |
 | [534823422](https://issues.chromium.org/issues/534823422) | [sandbox] Publish Code object when fully initialized | JS dispatch / trusted-code publication | [e73eec269930](https://chromium.googlesource.com/v8/v8/+/e73eec269930e16a34646e44b3d8baf9a9df300e) |
@@ -227,7 +228,11 @@ A list of V8 Sandbox issues.
 | [554619028](https://issues.chromium.org/issues/554619028) | [sandbox] Avoid double read of JSArrayBuffer::extension_ | ArrayBuffer / TypedArray | [5a79228e0ac5](https://chromium.googlesource.com/v8/v8/+/5a79228e0ac524c389cfd2c216d47d38ae3adae2) |
 | [557403144](https://issues.chromium.org/issues/557403144) | [sandbox] Call ArrayBufferExtension::InitializationBarrier before verifying age | ArrayBuffer / GC | [603130eea0ed](https://chromium.googlesource.com/v8/v8/+/603130eea0edc1d484e4848703410e11db0f2371) |
 | [559580852](https://issues.chromium.org/issues/559580852) | [sandbox] Call ArrayBufferExtension::InitializationBarrier before verifying age | ArrayBuffer / GC | [603130eea0ed](https://chromium.googlesource.com/v8/v8/+/603130eea0edc1d484e4848703410e11db0f2371) |
-| [560771373](https://issues.chromium.org/issues/560771373) | [snapshot][sandbox] Avoid storing external refs on-heap in serializer | Snapshot / external references | [ccec634aa62e](https://chromium.googlesource.com/v8/v8/+/ccec634aa62ed5d2e015b4897cf254288db98296) |
+| [560233253](https://issues.chromium.org/issues/560233253) | [sandbox] Verify dispatch handle parameter count across runtime calls | JS dispatch / native stack | [9f2a83975e3c](https://chromium.googlesource.com/v8/v8/+/9f2a83975e3cabbf7ced511c9690fc1556e3a80c) |
+| [560282287](https://issues.chromium.org/issues/560282287) | [sandbox][wasm] Register WasmTrustedInstanceData with publishing scope | Wasm / trusted-object publication | [9c203121a7eb](https://chromium.googlesource.com/v8/v8/+/9c203121a7ebb4cf0de6ba53071eecf71e9f3654) |
+| [560771373](https://issues.chromium.org/issues/560771373) | [snapshot][sandbox] Avoid storing external refs on-heap in serializer | Snapshot / external references | [ccec634aa62e](https://chromium.googlesource.com/v8/v8/+/ccec634aa62ed5d2e015b4897cf254288db98296)<br>[2a77d868f49a](https://chromium.googlesource.com/v8/v8/+/2a77d868f49a6081baae94beadb7ee7b58b98f1b) |
 | [561387542](https://issues.chromium.org/issues/561387542) | [snapshot][sandbox] Restrict serializable trusted types | Snapshot / trusted objects | [62d1415cd8c8](https://chromium.googlesource.com/v8/v8/+/62d1415cd8c8cbd228da54bcbeceaacb2af901c9) |
 | [561655173](https://issues.chromium.org/issues/561655173) | [wasm][jspi][sandbox] Repair WasmResume native-stack cleanup | Wasm / JSPI | [49a1dbeb1bd6](https://chromium.googlesource.com/v8/v8/+/49a1dbeb1bd610671530ebc0ba61a90eb8f73b59)<br>[3137a7440094](https://chromium.googlesource.com/v8/v8/+/3137a7440094ca502c2ff55294344ec80c1c0fb8) |
+| [562199654](https://issues.chromium.org/issues/562199654) | [sandbox] Pass handle to WriteBarrier::ForExternalPointer | ArrayBuffer / GC | [ca5faf28b935](https://chromium.googlesource.com/v8/v8/+/ca5faf28b935256e8a8d4e0d248fa53650dd92bf) |
 | [562225248](https://issues.chromium.org/issues/562225248) | [riscv][maglev] Zero-extend string index before address computation | Compiler / Maglev / RISC-V | [5f5fda773698](https://chromium.googlesource.com/v8/v8/+/5f5fda773698dbfd1ad4172e1d2de3e534ed9cd3) |
+| [562870022](https://issues.chromium.org/issues/562870022) | Avoid double fetch of extension in arraybuffer.prototype.resize | ArrayBuffer / backing stores | [afa3262b046d](https://chromium.googlesource.com/v8/v8/+/afa3262b046d02a1472b2f9361f0149bc055dc09) |
