@@ -2,7 +2,7 @@
 
 A list of V8 Sandbox issues.
 
-- Issues: 228
+- Issues: 229
 - [json](issues.json)
 - Data sources: [Chromium Issue Tracker](https://issues.chromium.org/) and [V8](https://chromium.googlesource.com/v8/v8/)
 
@@ -236,3 +236,4 @@ A list of V8 Sandbox issues.
 | [562199654](https://issues.chromium.org/issues/562199654) | [sandbox] Pass handle to WriteBarrier::ForExternalPointer | ArrayBuffer / GC | [ca5faf28b935](https://chromium.googlesource.com/v8/v8/+/ca5faf28b935256e8a8d4e0d248fa53650dd92bf) |
 | [562225248](https://issues.chromium.org/issues/562225248) | [riscv][maglev] Zero-extend string index before address computation | Compiler / Maglev / RISC-V | [5f5fda773698](https://chromium.googlesource.com/v8/v8/+/5f5fda773698dbfd1ad4172e1d2de3e534ed9cd3) |
 | [562870022](https://issues.chromium.org/issues/562870022) | Avoid double fetch of extension in arraybuffer.prototype.resize | ArrayBuffer / backing stores | [afa3262b046d](https://chromium.googlesource.com/v8/v8/+/afa3262b046d02a1472b2f9361f0149bc055dc09) |
+| [565797753](https://issues.chromium.org/issues/565797753) | [runtime,sandbox] Harden TryCopyConsStringDirect with std::span | Native resources / strings | [7ec754d5fd9d](https://chromium.googlesource.com/v8/v8/+/7ec754d5fd9df64dd2ad9bb2c9f5cc3eec09182c) |

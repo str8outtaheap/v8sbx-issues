@@ -2007,5 +2007,14 @@
     "commits": [
       "https://chromium.googlesource.com/v8/v8/+/afa3262b046d02a1472b2f9361f0149bc055dc09"
     ]
+  },
+  {
+    "id": "565797753",
+    "url": "https://issues.chromium.org/issues/565797753",
+    "title": "[runtime,sandbox] Harden TryCopyConsStringDirect with std::span",
+    "surface": "Native resources / strings",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/7ec754d5fd9df64dd2ad9bb2c9f5cc3eec09182c"
+    ]
   }
 ]
