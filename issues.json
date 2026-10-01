@@ -2009,12 +2009,48 @@
     ]
   },
   {
+    "id": "564503667",
+    "url": "https://issues.chromium.org/issues/564503667",
+    "title": "[snapshot][sandbox] Harden serializer more",
+    "surface": "Snapshot / serializer",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/ea680fe61ddd4c2c09b9d96fc5b130662c7cf834"
+    ]
+  },
+  {
+    "id": "564851871",
+    "url": "https://issues.chromium.org/issues/564851871",
+    "title": "[snapshot][sandbox] Harden serializer more",
+    "surface": "Snapshot / serializer",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/ea680fe61ddd4c2c09b9d96fc5b130662c7cf834"
+    ]
+  },
+  {
     "id": "565797753",
     "url": "https://issues.chromium.org/issues/565797753",
     "title": "[runtime,sandbox] Harden TryCopyConsStringDirect with std::span",
     "surface": "Native resources / strings",
     "commits": [
       "https://chromium.googlesource.com/v8/v8/+/7ec754d5fd9df64dd2ad9bb2c9f5cc3eec09182c"
+    ]
+  },
+  {
+    "id": "566059792",
+    "url": "https://issues.chromium.org/issues/566059792",
+    "title": "[wasm] Store WasmSuspenderObject::stack_ as a direct pointer",
+    "surface": "Wasm / JSPI",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/a939661466d9824ca76c41c0ecee9a3d9e9aadc7"
+    ]
+  },
+  {
+    "id": "566142291",
+    "url": "https://issues.chromium.org/issues/566142291",
+    "title": "[snapshot][sandbox] Harden serializer more",
+    "surface": "Snapshot / serializer",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/ea680fe61ddd4c2c09b9d96fc5b130662c7cf834"
     ]
   }
 ]

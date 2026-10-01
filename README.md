@@ -2,7 +2,7 @@
 
 A list of V8 Sandbox issues.
 
-- Issues: 229
+- Issues: 233
 - [json](issues.json)
 - Data sources: [Chromium Issue Tracker](https://issues.chromium.org/) and [V8](https://chromium.googlesource.com/v8/v8/)
 
@@ -236,4 +236,8 @@ A list of V8 Sandbox issues.
 | [562199654](https://issues.chromium.org/issues/562199654) | [sandbox] Pass handle to WriteBarrier::ForExternalPointer | ArrayBuffer / GC | [ca5faf28b935](https://chromium.googlesource.com/v8/v8/+/ca5faf28b935256e8a8d4e0d248fa53650dd92bf) |
 | [562225248](https://issues.chromium.org/issues/562225248) | [riscv][maglev] Zero-extend string index before address computation | Compiler / Maglev / RISC-V | [5f5fda773698](https://chromium.googlesource.com/v8/v8/+/5f5fda773698dbfd1ad4172e1d2de3e534ed9cd3) |
 | [562870022](https://issues.chromium.org/issues/562870022) | Avoid double fetch of extension in arraybuffer.prototype.resize | ArrayBuffer / backing stores | [afa3262b046d](https://chromium.googlesource.com/v8/v8/+/afa3262b046d02a1472b2f9361f0149bc055dc09) |
+| [564503667](https://issues.chromium.org/issues/564503667) | [snapshot][sandbox] Harden serializer more | Snapshot / serializer | [ea680fe61ddd](https://chromium.googlesource.com/v8/v8/+/ea680fe61ddd4c2c09b9d96fc5b130662c7cf834) |
+| [564851871](https://issues.chromium.org/issues/564851871) | [snapshot][sandbox] Harden serializer more | Snapshot / serializer | [ea680fe61ddd](https://chromium.googlesource.com/v8/v8/+/ea680fe61ddd4c2c09b9d96fc5b130662c7cf834) |
 | [565797753](https://issues.chromium.org/issues/565797753) | [runtime,sandbox] Harden TryCopyConsStringDirect with std::span | Native resources / strings | [7ec754d5fd9d](https://chromium.googlesource.com/v8/v8/+/7ec754d5fd9df64dd2ad9bb2c9f5cc3eec09182c) |
+| [566059792](https://issues.chromium.org/issues/566059792) | [wasm] Store WasmSuspenderObject::stack_ as a direct pointer | Wasm / JSPI | [a939661466d9](https://chromium.googlesource.com/v8/v8/+/a939661466d9824ca76c41c0ecee9a3d9e9aadc7) |
+| [566142291](https://issues.chromium.org/issues/566142291) | [snapshot][sandbox] Harden serializer more | Snapshot / serializer | [ea680fe61ddd](https://chromium.googlesource.com/v8/v8/+/ea680fe61ddd4c2c09b9d96fc5b130662c7cf834) |
