@@ -1917,6 +1917,15 @@
     ]
   },
   {
+    "id": "555304822",
+    "url": "https://issues.chromium.org/issues/555304822",
+    "title": "[compiler] Validate expected formal parameter count in CallJSFunction",
+    "surface": "JS dispatch / native stack",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/708b9435c26eef8b01bdf10e5cd20b6c2cabfaaa"
+    ]
+  },
+  {
     "id": "557403144",
     "url": "https://issues.chromium.org/issues/557403144",
     "title": "[sandbox] Call ArrayBufferExtension::InitializationBarrier before verifying age",
@@ -1950,6 +1959,15 @@
     "surface": "Wasm / trusted-object publication",
     "commits": [
       "https://chromium.googlesource.com/v8/v8/+/9c203121a7ebb4cf0de6ba53071eecf71e9f3654"
+    ]
+  },
+  {
+    "id": "560327273",
+    "url": "https://issues.chromium.org/issues/560327273",
+    "title": "[snapshot][sandbox] Check snapshot payload fits in uint32",
+    "surface": "Snapshot / serializer",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/d5bd18309d5b4ac955c8a7bd162bcbd3f8fc07f2"
     ]
   },
   {
