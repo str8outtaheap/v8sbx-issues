@@ -2070,5 +2070,23 @@
     "commits": [
       "https://chromium.googlesource.com/v8/v8/+/ea680fe61ddd4c2c09b9d96fc5b130662c7cf834"
     ]
+  },
+  {
+    "id": "567222739",
+    "url": "https://issues.chromium.org/issues/567222739",
+    "title": "[ic] Use unsigned index bounds in GetLoadICHandlerForStorageOffset",
+    "surface": "Compiler / IC",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/bd1f0fd9413b75612111d5194acc065e4232ee74"
+    ]
+  },
+  {
+    "id": "569081905",
+    "url": "https://issues.chromium.org/issues/569081905",
+    "title": "[wasm][jspi] Keep WasmSuspenderObject::stack_ null for active/retired suspenders",
+    "surface": "Wasm / JSPI",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/2a9191a702647819f10b316145e435ad747590af"
+    ]
   }
 ]

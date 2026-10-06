@@ -2,7 +2,7 @@
 
 A list of V8 Sandbox issues.
 
-- Issues: 235
+- Issues: 237
 - [json](issues.json)
 - Data sources: [Chromium Issue Tracker](https://issues.chromium.org/) and [V8](https://chromium.googlesource.com/v8/v8/)
 
@@ -243,3 +243,5 @@ A list of V8 Sandbox issues.
 | [565797753](https://issues.chromium.org/issues/565797753) | [runtime,sandbox] Harden TryCopyConsStringDirect with std::span | Native resources / strings | [7ec754d5fd9d](https://chromium.googlesource.com/v8/v8/+/7ec754d5fd9df64dd2ad9bb2c9f5cc3eec09182c) |
 | [566059792](https://issues.chromium.org/issues/566059792) | [wasm] Store WasmSuspenderObject::stack_ as a direct pointer | Wasm / JSPI | [a939661466d9](https://chromium.googlesource.com/v8/v8/+/a939661466d9824ca76c41c0ecee9a3d9e9aadc7) |
 | [566142291](https://issues.chromium.org/issues/566142291) | [snapshot][sandbox] Harden serializer more | Snapshot / serializer | [ea680fe61ddd](https://chromium.googlesource.com/v8/v8/+/ea680fe61ddd4c2c09b9d96fc5b130662c7cf834) |
+| [567222739](https://issues.chromium.org/issues/567222739) | [ic] Use unsigned index bounds in GetLoadICHandlerForStorageOffset | Compiler / IC | [bd1f0fd9413b](https://chromium.googlesource.com/v8/v8/+/bd1f0fd9413b75612111d5194acc065e4232ee74) |
+| [569081905](https://issues.chromium.org/issues/569081905) | [wasm][jspi] Keep WasmSuspenderObject::stack_ null for active/retired suspenders | Wasm / JSPI | [2a9191a70264](https://chromium.googlesource.com/v8/v8/+/2a9191a702647819f10b316145e435ad747590af) |
