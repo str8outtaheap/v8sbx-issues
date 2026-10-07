@@ -2,7 +2,7 @@
 
 A list of V8 Sandbox issues.
 
-- Issues: 237
+- Issues: 239
 - [json](issues.json)
 - Data sources: [Chromium Issue Tracker](https://issues.chromium.org/) and [V8](https://chromium.googlesource.com/v8/v8/)
 
@@ -244,4 +244,6 @@ A list of V8 Sandbox issues.
 | [566059792](https://issues.chromium.org/issues/566059792) | [wasm] Store WasmSuspenderObject::stack_ as a direct pointer | Wasm / JSPI | [a939661466d9](https://chromium.googlesource.com/v8/v8/+/a939661466d9824ca76c41c0ecee9a3d9e9aadc7) |
 | [566142291](https://issues.chromium.org/issues/566142291) | [snapshot][sandbox] Harden serializer more | Snapshot / serializer | [ea680fe61ddd](https://chromium.googlesource.com/v8/v8/+/ea680fe61ddd4c2c09b9d96fc5b130662c7cf834) |
 | [567222739](https://issues.chromium.org/issues/567222739) | [ic] Use unsigned index bounds in GetLoadICHandlerForStorageOffset | Compiler / IC | [bd1f0fd9413b](https://chromium.googlesource.com/v8/v8/+/bd1f0fd9413b75612111d5194acc065e4232ee74) |
+| [567526351](https://issues.chromium.org/issues/567526351) | [wasm] Keep shared memory BackingStore alive in trusted space | Wasm / shared memory | [f8ffc5c8febc](https://chromium.googlesource.com/v8/v8/+/f8ffc5c8febcc6196589d1e45f996a75f58d929b) |
+| [568338771](https://issues.chromium.org/issues/568338771) | [debug] Harden DebugInfo lookup and DebugBytecodeArray swap | Debugger / bytecode | [156825a7673b](https://chromium.googlesource.com/v8/v8/+/156825a7673b04f4d5ee09fecbda70fc099a8bee) |
 | [569081905](https://issues.chromium.org/issues/569081905) | [wasm][jspi] Keep WasmSuspenderObject::stack_ null for active/retired suspenders | Wasm / JSPI | [2a9191a70264](https://chromium.googlesource.com/v8/v8/+/2a9191a702647819f10b316145e435ad747590af) |

@@ -2081,6 +2081,24 @@
     ]
   },
   {
+    "id": "567526351",
+    "url": "https://issues.chromium.org/issues/567526351",
+    "title": "[wasm] Keep shared memory BackingStore alive in trusted space",
+    "surface": "Wasm / shared memory",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/f8ffc5c8febcc6196589d1e45f996a75f58d929b"
+    ]
+  },
+  {
+    "id": "568338771",
+    "url": "https://issues.chromium.org/issues/568338771",
+    "title": "[debug] Harden DebugInfo lookup and DebugBytecodeArray swap",
+    "surface": "Debugger / bytecode",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/156825a7673b04f4d5ee09fecbda70fc099a8bee"
+    ]
+  },
+  {
     "id": "569081905",
     "url": "https://issues.chromium.org/issues/569081905",
     "title": "[wasm][jspi] Keep WasmSuspenderObject::stack_ null for active/retired suspenders",
