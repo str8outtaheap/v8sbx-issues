@@ -2036,6 +2036,33 @@
     ]
   },
   {
+    "id": "564834746",
+    "url": "https://issues.chromium.org/issues/564834746",
+    "title": "[snapshot][sandbox] Use uint32_t in the deserializer",
+    "surface": "Snapshot / deserializer",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/40df2d08a0652958ef7c87d6ed9209fd16487f14"
+    ]
+  },
+  {
+    "id": "564834829",
+    "url": "https://issues.chromium.org/issues/564834829",
+    "title": "[snapshot][sandbox] Use uint32_t in the deserializer",
+    "surface": "Snapshot / deserializer",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/40df2d08a0652958ef7c87d6ed9209fd16487f14"
+    ]
+  },
+  {
+    "id": "564835629",
+    "url": "https://issues.chromium.org/issues/564835629",
+    "title": "[snapshot][sandbox] Use uint32_t in the deserializer",
+    "surface": "Snapshot / deserializer",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/40df2d08a0652958ef7c87d6ed9209fd16487f14"
+    ]
+  },
+  {
     "id": "564851871",
     "url": "https://issues.chromium.org/issues/564851871",
     "title": "[snapshot][sandbox] Harden serializer more",
@@ -2099,12 +2126,30 @@
     ]
   },
   {
+    "id": "568395075",
+    "url": "https://issues.chromium.org/issues/568395075",
+    "title": "[heap, sandbox] Bound Heap::CopyBlock and CopyTagged to uint32_t sizes",
+    "surface": "Heap / native copies",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/dc27b28eff9c0133f11145d4400ea5f0466efaef"
+    ]
+  },
+  {
     "id": "569081905",
     "url": "https://issues.chromium.org/issues/569081905",
     "title": "[wasm][jspi] Keep WasmSuspenderObject::stack_ null for active/retired suspenders",
     "surface": "Wasm / JSPI",
     "commits": [
       "https://chromium.googlesource.com/v8/v8/+/2a9191a702647819f10b316145e435ad747590af"
+    ]
+  },
+  {
+    "id": "570497964",
+    "url": "https://issues.chromium.org/issues/570497964",
+    "title": "[wasm][revec] Fix 32-byte Simd256 store into Simd128 stack return slot",
+    "surface": "Wasm / revectorization ABI",
+    "commits": [
+      "https://chromium.googlesource.com/v8/v8/+/81167bef91dd13b4b16cefd6b7489f556f403407"
     ]
   }
 ]

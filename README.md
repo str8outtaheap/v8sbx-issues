@@ -2,7 +2,7 @@
 
 A list of V8 Sandbox issues.
 
-- Issues: 239
+- Issues: 244
 - [json](issues.json)
 - Data sources: [Chromium Issue Tracker](https://issues.chromium.org/) and [V8](https://chromium.googlesource.com/v8/v8/)
 
@@ -239,6 +239,9 @@ A list of V8 Sandbox issues.
 | [562225248](https://issues.chromium.org/issues/562225248) | [riscv][maglev] Zero-extend string index before address computation | Compiler / Maglev / RISC-V | [5f5fda773698](https://chromium.googlesource.com/v8/v8/+/5f5fda773698dbfd1ad4172e1d2de3e534ed9cd3) |
 | [562870022](https://issues.chromium.org/issues/562870022) | Avoid double fetch of extension in arraybuffer.prototype.resize | ArrayBuffer / backing stores | [afa3262b046d](https://chromium.googlesource.com/v8/v8/+/afa3262b046d02a1472b2f9361f0149bc055dc09) |
 | [564503667](https://issues.chromium.org/issues/564503667) | [snapshot][sandbox] Harden serializer more | Snapshot / serializer | [ea680fe61ddd](https://chromium.googlesource.com/v8/v8/+/ea680fe61ddd4c2c09b9d96fc5b130662c7cf834) |
+| [564834746](https://issues.chromium.org/issues/564834746) | [snapshot][sandbox] Use uint32_t in the deserializer | Snapshot / deserializer | [40df2d08a065](https://chromium.googlesource.com/v8/v8/+/40df2d08a0652958ef7c87d6ed9209fd16487f14) |
+| [564834829](https://issues.chromium.org/issues/564834829) | [snapshot][sandbox] Use uint32_t in the deserializer | Snapshot / deserializer | [40df2d08a065](https://chromium.googlesource.com/v8/v8/+/40df2d08a0652958ef7c87d6ed9209fd16487f14) |
+| [564835629](https://issues.chromium.org/issues/564835629) | [snapshot][sandbox] Use uint32_t in the deserializer | Snapshot / deserializer | [40df2d08a065](https://chromium.googlesource.com/v8/v8/+/40df2d08a0652958ef7c87d6ed9209fd16487f14) |
 | [564851871](https://issues.chromium.org/issues/564851871) | [snapshot][sandbox] Harden serializer more | Snapshot / serializer | [ea680fe61ddd](https://chromium.googlesource.com/v8/v8/+/ea680fe61ddd4c2c09b9d96fc5b130662c7cf834) |
 | [565797753](https://issues.chromium.org/issues/565797753) | [runtime,sandbox] Harden TryCopyConsStringDirect with std::span | Native resources / strings | [7ec754d5fd9d](https://chromium.googlesource.com/v8/v8/+/7ec754d5fd9df64dd2ad9bb2c9f5cc3eec09182c) |
 | [566059792](https://issues.chromium.org/issues/566059792) | [wasm] Store WasmSuspenderObject::stack_ as a direct pointer | Wasm / JSPI | [a939661466d9](https://chromium.googlesource.com/v8/v8/+/a939661466d9824ca76c41c0ecee9a3d9e9aadc7) |
@@ -246,4 +249,6 @@ A list of V8 Sandbox issues.
 | [567222739](https://issues.chromium.org/issues/567222739) | [ic] Use unsigned index bounds in GetLoadICHandlerForStorageOffset | Compiler / IC | [bd1f0fd9413b](https://chromium.googlesource.com/v8/v8/+/bd1f0fd9413b75612111d5194acc065e4232ee74) |
 | [567526351](https://issues.chromium.org/issues/567526351) | [wasm] Keep shared memory BackingStore alive in trusted space | Wasm / shared memory | [f8ffc5c8febc](https://chromium.googlesource.com/v8/v8/+/f8ffc5c8febcc6196589d1e45f996a75f58d929b) |
 | [568338771](https://issues.chromium.org/issues/568338771) | [debug] Harden DebugInfo lookup and DebugBytecodeArray swap | Debugger / bytecode | [156825a7673b](https://chromium.googlesource.com/v8/v8/+/156825a7673b04f4d5ee09fecbda70fc099a8bee) |
+| [568395075](https://issues.chromium.org/issues/568395075) | [heap, sandbox] Bound Heap::CopyBlock and CopyTagged to uint32_t sizes | Heap / native copies | [dc27b28eff9c](https://chromium.googlesource.com/v8/v8/+/dc27b28eff9c0133f11145d4400ea5f0466efaef) |
 | [569081905](https://issues.chromium.org/issues/569081905) | [wasm][jspi] Keep WasmSuspenderObject::stack_ null for active/retired suspenders | Wasm / JSPI | [2a9191a70264](https://chromium.googlesource.com/v8/v8/+/2a9191a702647819f10b316145e435ad747590af) |
+| [570497964](https://issues.chromium.org/issues/570497964) | [wasm][revec] Fix 32-byte Simd256 store into Simd128 stack return slot | Wasm / revectorization ABI | [81167bef91dd](https://chromium.googlesource.com/v8/v8/+/81167bef91dd13b4b16cefd6b7489f556f403407) |
